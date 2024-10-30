@@ -1,0 +1,26 @@
+<div>
+  Test
+  {{ section.settings.title }}
+</div>
+
+{% schema %}
+{
+  "name": "Test Section",
+  "class": "slideshow",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Test Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Test Section",
+      "settings": {
+        "title": "Slideshow"
+      }
+    }
+  ]
+}
+{% endschema %}
