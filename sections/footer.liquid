@@ -62,17 +62,13 @@
           -%}
           <div class="footer__content-top">
             <div class="footer__logo-wrapper">
-              {%- assign footer_logo_alt = settings.footer_logo.alt | default: shop.name | escape -%}
-              {%- assign footer_logo = settings.footer_logo | default: settings.logo -%}
-              {%- if footer_logo != blank -%}
-                <img
-                  src="{{ section.settings.footer_logo | image_url}}"
-                  alt="{{ footer_logo_alt }}"
-                  class="footer-logo"
-                  height="200"
-                  width="200"
-                >
-              {%- endif -%}
+              <img
+                src="{{ section.settings.footer_logo | image_url}}"
+                alt="{{ footer_logo_alt }}"
+                class="footer-logo"
+                height="200"
+                width="200"
+              >
             </div>
             {%- if settings.show_social and has_social_icons -%}
               {%- render 'social-icons', class: 'footer__list-social' -%}
