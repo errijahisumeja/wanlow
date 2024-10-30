@@ -1225,6 +1225,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: #7EC6BC;
+  border: none;
 }
 
 .button:hover,
