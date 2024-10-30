@@ -201,9 +201,10 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
+        <span class="svg-wrapper">{{ 'get-started-icon.svg' | inline_asset_content }}</span>
         <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" >
           <span class="svg-wrapper">{{ 'get-started-icon.svg' | inline_asset_content }}</span>  
-        </a> 
+        </a>
 
 
       {%- if shop.customer_accounts_enabled -%}
