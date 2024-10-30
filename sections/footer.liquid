@@ -101,7 +101,10 @@
                       </div>
                     {%- when 'link_list' -%}
                       {%- if block.settings.menu != blank -%}
-                        <ul class="footer-block__details-content list-unstyled">
+                        <ul
+                          class="footer-block__details-content list-unstyled"
+                          style="display: flex;flex-direction_ column;flex-direction: column;"
+                        >
                           {%- for link in block.settings.menu.links -%}
                             <li>
                               <a
