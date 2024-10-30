@@ -2762,6 +2762,7 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  font-family: 'Noto Sans Display', sans-serif;
 }
 
 .header--top-center .header__inline-menu,
