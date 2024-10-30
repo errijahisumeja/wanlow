@@ -9,7 +9,16 @@
 .banner__box {
   text-align: center;
 }
-
+.banner__heading{
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 90px/103px Mouse Memoirs;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+}
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .banner__box.gradient {
   transform: perspective(0);
