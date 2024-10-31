@@ -52,6 +52,10 @@
     color: #483729;
     text-transform: capitalize;
     opacity: 1;
+    position: relative;
+    z-index: 2;
+    margin-top: -60%;
+
   }
   
 .steps__box-text {
