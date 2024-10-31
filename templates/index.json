@@ -227,10 +227,17 @@
       "settings": {
         "title": "Slideshow"
       }
+    },
+    "how_it_works_section_wRMqy7": {
+      "type": "how-it-works-section",
+      "settings": {
+        "title": "How it works"
+      }
     }
   },
   "order": [
     "image_banner",
+    "how_it_works_section_wRMqy7",
     "rich_text",
     "featured_collection",
     "collage",
