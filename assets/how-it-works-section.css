@@ -15,17 +15,7 @@
     text-transform: capitalize;
     opacity: 1;
   }
-  
-.how-it-works-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-    padding: 20px 0;
-    max-width: 80%;
-  
-  }
-  
+    
 .how-it-works__content {
     flex-direction: row;
     display: flex;
