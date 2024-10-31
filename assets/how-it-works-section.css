@@ -16,14 +16,7 @@
     opacity: 1;
   }
     
-.how-it-works__content {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    align-items: center;  
-    gap: 20px;  
-  }
+
   
 /* .steps__box {
     background-color: #FFFFFF;
