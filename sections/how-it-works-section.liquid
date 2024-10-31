@@ -5,27 +5,27 @@
 
   <div class="how-it-works__content col-12">
     {% for block in section.blocks %}
-      {% comment %}
-        <div class="col-lg-4 col-md-6 mb-4">
-        <div class="steps__box p-5" style="min-height: 550px; justify-content: center;">
-      {% endcomment %}
-      <div class="steps__image">
-        <img
-          src="{{ block.settings.box_image | image_url }}"
-          alt="{{ block.settings.box_image }}"
-          class="img-fluid mb-3"
-          width="200"
-          height="200"
-        >
-      </div>
-      {% comment %}
-        <h3 class="steps__box-title">{{ block.settings.box_title }}</h3>
-            <div class="steps__inline-text">
-              <p class="steps__box-text">{{ block.settings.box_text }}</p>
-            </div>
-          </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        {% comment %}
+          <div class="steps__box p-5" style="min-height: 550px; justify-content: center;">
+        {% endcomment %}
+        <div class="steps__image">
+          <img
+            src="{{ block.settings.box_image | image_url }}"
+            alt="{{ block.settings.box_image }}"
+            class="img-fluid mb-3"
+            width="200"
+            height="200"
+          >
         </div>
-      {% endcomment %}
+        {% comment %}
+          <h3 class="steps__box-title">{{ block.settings.box_title }}</h3>
+              <div class="steps__inline-text">
+                <p class="steps__box-text">{{ block.settings.box_text }}</p>
+              </div>
+            </div>
+        {% endcomment %}
+      </div>
     {% endfor %}
   </div>
 </div>
