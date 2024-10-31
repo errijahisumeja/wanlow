@@ -64,6 +64,7 @@
         "step_section_cx7MCX": {
           "type": "step_section",
           "settings": {
+            "box_image": "shopify://shop_images/step-1.png",
             "box_title": "Step 1",
             "box_text": "Content"
           }
