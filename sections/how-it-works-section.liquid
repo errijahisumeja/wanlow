@@ -1,40 +1,33 @@
 <link rel="stylesheet" href="{{ 'how-it-works-section.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm">One of three columns</div>
-    <div class="col-sm">One of three columns</div>
-    <div class="col-sm">One of three columns</div>
-  </div>
-  {% comment %}
-    <h2 class="how-it-works__title">{{ section.settings.title }}</h2>
+<div class="container my-5">
+  <h2 class="how-it-works__title">{{ section.settings.title }}</h2>
 
-    <div class="how-it-works__content col-12">
-      <div class="row gap-4">
-        {% for block in section.blocks %}
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="steps__box p-5">
-              <div class="steps__image">
-                <img
-                  src="{{ block.settings.box_image | image_url }}"
-                  alt="{{ block.settings.box_image }}"
-                  class="img-fluid mb-3"
-                  width="330"
-                  height="500"
-                >
-              </div>
-              {% comment %}
-                <h3 class="steps__box-title">{{ block.settings.box_title }}</h3>
-                    <div class="steps__inline-text">
-                      <p class="steps__box-text">{{ block.settings.box_text }}</p>
-                    </div>
-              {% endcomment %}
+  <div class="how-it-works__content col-12">
+    <div class="row gap-4">
+      {% for block in section.blocks %}
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="steps__box p-5">
+            <div class="steps__image">
+              <img
+                src="{{ block.settings.box_image | image_url }}"
+                alt="{{ block.settings.box_image }}"
+                class="img-fluid mb-3"
+                width="330"
+                height="500"
+              >
             </div>
+            {% comment %}
+              <h3 class="steps__box-title">{{ block.settings.box_title }}</h3>
+                  <div class="steps__inline-text">
+                    <p class="steps__box-text">{{ block.settings.box_text }}</p>
+                  </div>
+            {% endcomment %}
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </div>
-  {% endcomment %}
+  </div>
 </div>
 
 {% schema %}

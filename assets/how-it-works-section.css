@@ -1,4 +1,8 @@
-
+.how-it-works {
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 10%;
+  }
   
 .how-it-works__title {
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-50)/var(--unnamed-line-spacing-57) var(--unnamed-font-family-mouse-memoirs);
@@ -11,10 +15,19 @@
     text-transform: capitalize;
     opacity: 1;
   }
-    
+  
 
-/*   
-.steps__box {
+  
+.how-it-works__content {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: center;  
+    gap: 20px;  
+  }
+  
+/* .steps__box {
     background-color: #FFFFFF;
     padding: 20px;
     text-align: center;
@@ -24,9 +37,9 @@
     margin: 0 auto;
     height: 100%;
     width: 500px;
-  }  */
+  } */
     
-/* .how-it-works__icon img {
+.how-it-works__icon img {
     margin-bottom: 10px;
     width: 330px;
     height: 563px;
@@ -53,6 +66,6 @@
     letter-spacing: 0px;
     color: #483729;
     opacity: 1;
-} */
+}
 
   
