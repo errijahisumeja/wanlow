@@ -519,3 +519,9 @@
     color: currentColor;
   }
 }
+
+@media (max-width: 480px){
+  .banner__heading{
+    font-size: 18px;
+  }
+}
