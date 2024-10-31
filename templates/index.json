@@ -58,6 +58,40 @@
         "show_text_below": false
       }
     },
+    "how_it_works_section_wRMqy7": {
+      "type": "how-it-works-section",
+      "blocks": {
+        "step_section_cx7MCX": {
+          "type": "step_section",
+          "settings": {
+            "box_title": "Step 1",
+            "box_text": "Content"
+          }
+        },
+        "step_section_FN6YRG": {
+          "type": "step_section",
+          "settings": {
+            "box_title": "Step 1",
+            "box_text": "Content"
+          }
+        },
+        "step_section_D6DLci": {
+          "type": "step_section",
+          "settings": {
+            "box_title": "Step 1",
+            "box_text": "Content"
+          }
+        }
+      },
+      "block_order": [
+        "step_section_cx7MCX",
+        "step_section_FN6YRG",
+        "step_section_D6DLci"
+      ],
+      "settings": {
+        "title": "How it works"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -226,12 +260,6 @@
       "type": "test",
       "settings": {
         "title": "Slideshow"
-      }
-    },
-    "how_it_works_section_wRMqy7": {
-      "type": "how-it-works-section",
-      "settings": {
-        "title": "How it works"
       }
     }
   },
