@@ -18,7 +18,7 @@
   
 .how-it-works-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center; 
     padding: 20px 0;
