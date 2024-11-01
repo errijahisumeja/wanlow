@@ -5,83 +5,63 @@
   <div class="container">
     <h1 text-center mb-5>{{ section.title }}</h1>
     <div class="row">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                {% for block in section.blocks %}
-                    <div class="swiper-slide">
-                        <div class="image-slider-wrapper">
-                            <img src="{{ block.settings.box_image  | image_url }}" alt="{{ block.settings.alt }}" width="100" height="100">
-                        </div>
-                        <div class="content">
-                            <div class="number{% if forloop.index == 1 %} first {%  elseif forloop.index == 2 %} second {% elseif forloop.index == 3 %} third{%  endif %}">{{ forloop.index }}</div>
-                            <h5>{{ block.settings.box_title }}</h5>
-                            <p>{{ block.settings.box_text }}</p>
-                        </div>
-                    </div>
-                {% endfor %}
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div class="image-slider-wrapper">
+                <img
+                  src="{{ block.settings.box_image  | image_url }}"
+                  alt="{{ block.settings.alt }}"
+                  width="100"
+                  height="100"
+                >
+              </div>
+              <div class="content">
+                <div class="number{% if forloop.index == 1 %} first {%  elseif forloop.index == 2 %} second {% elseif forloop.index == 3 %} third{%  endif %}">
+                  {{ forloop.index }}
+                </div>
+                <h5>{{ block.settings.box_title }}</h5>
+                <p>{{ block.settings.box_text }}</p>
+              </div>
             </div>
+          {% endfor %}
         </div>
+      </div>
     </div>
   </div>
 </section>
 
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      setTimeout(function () {
-        var swiper = new Swiper('.mySwiper', {
-          slidesPerView: 1,
-          spaceBetween: 30,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          446: {
+            slidesPerView: 1,
+            initialSlide: 0,
           },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+          768: {
+            slidesPerView: 2,
           },
-          breakpoints: {
-            446: {
-              slidesPerView: 1,
-              initialSlide: 0,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            1024: {
-              slidesPerView: 3,
-            },
+          1024: {
+            slidesPerView: 3,
           },
-        });
-      }, 300);
-    });
-  </script>
-
-  <div class="how-it-works__content col-12">
-    <div class="row gap-4">
-      {% for block in section.blocks %}
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="steps__box">
-            <div class="steps__image">
-              <img
-                src="{{ block.settings.box_image | image_url }}"
-                alt="{{ block.settings.box_image }}"
-                class="img-fluid mb-3"
-                width="100"
-                height="100"
-              >
-            </div>
-
-            <h3 class="steps__box-title">{{ block.settings.box_title }}</h3>
-            <div class="steps__inline-text">
-              <p class="steps__box-text">{{ block.settings.box_text }}</p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+        },
+      });
+    }, 300);
+  });
+</script>
 
 {% schema %}
 {
