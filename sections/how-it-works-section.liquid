@@ -21,8 +21,8 @@
                 <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
                   {{ forloop.index }}
                 </div>
-                <h5>{{ block.settings.box_title }}</h5>
-                <p>{{ block.settings.box_text }}</p>
+                <h5 class="steps__box-title">{{ block.settings.box_title }}</h5>
+                <p class="steps__box-text">{{ block.settings.box_text }}</p>
               </div>
             </div>
           {% endfor %}
