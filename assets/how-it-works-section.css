@@ -93,13 +93,13 @@
  .content {
     padding: 0 30px;
     position: relative;
-    bottom: 70px;
+    bottom: -160px;
 }
 
 .number {
     font-size: 102px;
     color: #7EC6BC;
-    margin-top: -150px;
+    margin-top: -300px;
 }
 .first {
     transform: rotate(355deg);

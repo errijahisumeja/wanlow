@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="{{ 'welcome-box-section.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="content">
+          <h5 class="welcome-box-heading">{{ settings.heading }}</h5>
+          <p class="welocome-box-text">{{ settings.text }}</p>
+          <ul class="welcome-box-list list-unstyled">
+            <li>{{ settings.list_item_1 }}</li>
+            <li>{{ settings.list_item_1 }}</li>
+            <li>{{ settings.list_item_1 }}</li>
+            <li>{{ settings.list_item_1 }}</li>
+          </ul>
+          <a href="{{ settings.button_link }}" class="btn">{{ settings.button_text }}</a>
+        </div>
+      </div>
+      <div class="col-sm">
+        <img
+          src="{{ settings.img | image_url }}"
+          alt="{{ settings.img }}"
+          class="img-fluid mb-3"
+          width="200"
+          height="200"
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Welcome Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Title",
+      "default": "Welcome!"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Section Text",
+      "default": "Welcome Text!"
+    },
+    {
+      "type": "text",
+      "id": "list_item_1",
+      "label": "List item 1",
+      "default": "First item."
+    },
+    {
+      "type": "text",
+      "id": "list_item_2",
+      "label": "List item 2",
+      "default": "Second item."
+    },
+    {
+      "type": "text",
+      "id": "list_item_3",
+      "label": "List item 3",
+      "default": "Third item."
+    },
+    {
+      "type": "text",
+      "id": "list_item_4",
+      "label": "List item 4",
+      "default": "Fourth item."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "/"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Click Me!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Welcome Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
