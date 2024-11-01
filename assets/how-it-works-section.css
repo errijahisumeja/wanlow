@@ -81,12 +81,13 @@
   .image-slider-wrapper {
     width: 330px; 
     height: 500px; 
-    margin: 0 auto;
-    padding-top: 30px;
 }
-.image-slider-wrapper img {
-    border-radius: 15px;
-}
+ .swiper-slide{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
 /* .three-box {
     padding: 60px 0;
 }
