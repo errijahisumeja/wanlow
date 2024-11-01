@@ -6,20 +6,20 @@
       <div class="col-sm">
         <div class="content">
           <h5 class="welcome-box-heading">{{ section.settings.heading }}</h5>
-          <p class="welocome-box-text">{{ settings.text }}</p>
+          <p class="welocome-box-text">{{ section.settings.text }}</p>
           <ul class="welcome-box-list list-unstyled">
-            <li>{{ settings.list_item_1 }}</li>
-            <li>{{ settings.list_item_1 }}</li>
-            <li>{{ settings.list_item_1 }}</li>
-            <li>{{ settings.list_item_1 }}</li>
+            <li>{{ section.settings.list_item_1 }}</li>
+            <li>{{ section.settings.list_item_1 }}</li>
+            <li>{{ section.settings.list_item_1 }}</li>
+            <li>{{ section.settings.list_item_1 }}</li>
           </ul>
-          <a href="{{ settings.button_link }}" class="btn">{{ settings.button_text }}</a>
+          <a href="{{ section.settings.button_link }}" class="btn">{{ section.settings.button_text }}</a>
         </div>
       </div>
       <div class="col-sm">
         <img
-          src="{{ settings.img | image_url }}"
-          alt="{{ settings.img }}"
+          src="{{ section.settings.img | image_url }}"
+          alt="{{ section.settings.img }}"
           class="img-fluid mb-3"
           width="200"
           height="200"
