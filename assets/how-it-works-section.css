@@ -1,3 +1,16 @@
+.container{
+    margin-top: 10px;
+}
+
+.swiper-slide{
+    transition: transform 0.3s ease;
+}
+
+.image-slider-wrapper{
+    width: 330px; 
+    height: 500px; 
+}
+
 .how-it-works__title {
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-50)/var(--unnamed-line-spacing-57) var(--unnamed-font-family-mouse-memoirs);
     letter-spacing: var(--unnamed-character-spacing-0);
