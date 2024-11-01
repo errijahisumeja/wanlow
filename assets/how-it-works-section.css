@@ -81,7 +81,7 @@
   .image-slider-wrapper {
     max-width: 330px; 
     max-height: 500px; 
-    object-fit: fill;
+    object-fit: cover;
 }
  .swiper-slide{
     display: block;
