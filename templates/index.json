@@ -234,6 +234,19 @@
       "settings": {
         "title": "Slideshow"
       }
+    },
+    "welcome_box_section_fMbrLx": {
+      "type": "welcome-box-section",
+      "settings": {
+        "heading": "The Welcome Box",
+        "text": "For the first delivery, every child receives the Welcome Box which is packed full of everything they’ll need to kick off their outdoor fun of learning and discovery!",
+        "list_item_1": "Colorful backpack for all of your new gear",
+        "list_item_2": "Treasure Map to collect your monthly badges as your progress through the subscription",
+        "list_item_3": "Nature journal to keep track of your drawings and learnings",
+        "list_item_4": "Booklet full of activities, games and learning material",
+        "button_link": "/",
+        "button_text": "Get Your First Box!"
+      }
     }
   },
   "order": [
@@ -243,6 +256,7 @@
     "collage",
     "video",
     "multicolumn",
-    "test_69JMYU"
+    "test_69JMYU",
+    "welcome_box_section_fMbrLx"
   ]
 }
