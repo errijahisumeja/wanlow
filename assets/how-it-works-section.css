@@ -66,8 +66,8 @@
 } 
 
   .image-slider-wrapper {
-    max-width: 250px;
-    max-height: 250px;
+    width: 330px; 
+    height: 500px; 
     margin: 0 auto;
     padding-top: 30px;
 }
