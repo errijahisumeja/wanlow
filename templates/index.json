@@ -245,7 +245,8 @@
         "list_item_3": "Nature journal to keep track of your drawings and learnings",
         "list_item_4": "Booklet full of activities, games and learning material",
         "button_link": "/",
-        "button_text": "Get Your First Box!"
+        "button_text": "Get Your First Box!",
+        "img": "shopify://shop_images/welcome-image.png"
       }
     }
   },
