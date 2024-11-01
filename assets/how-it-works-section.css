@@ -89,6 +89,26 @@
     height: 100%;
     object-fit: cover;
  }
+
+ .content {
+    padding: 0 30px;
+    position: relative;
+    bottom: 70px;
+}
+.content .number {
+    font-size: 102px;
+    color: #7EC6BC;
+}
+.first {
+    transform: rotate(355deg);
+}
+.second {
+    transform: rotate(5deg);
+}
+.third {
+    transform: rotate(355deg);
+}
+
 /* .three-box {
     padding: 60px 0;
 }
