@@ -4,36 +4,34 @@
 <section class="how-it-works-section">
   <div class="container">
     <h1 class="text-center mb-5">{{ section.settings.title }}</h1>
-    {% comment %}
-      <div class="row">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            {% for block in section.blocks %}
-              <div class="swiper-slide">
-                <div class="image-slider-wrapper">
-                  <img
-                    src="{{ block.settings.box_image  | image_url }}"
-                    alt="{{ block.settings.alt }}"
-                    width="100"
-                    height="100"
-                  >
-                </div>
-                <div class="content">
-                  <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
-                    {{ forloop.index }}
-                  </div>
-                  <h5>{{ block.settings.box_title }}</h5>
-                  <p>{{ block.settings.box_text }}</p>
-                </div>
+    <div class="row">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div class="image-slider-wrapper">
+                <img
+                  src="{{ block.settings.box_image  | image_url }}"
+                  alt="{{ block.settings.alt }}"
+                  width="100"
+                  height="100"
+                >
               </div>
-            {% endfor %}
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+              <div class="content">
+                <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
+                  {{ forloop.index }}
+                </div>
+                <h5>{{ block.settings.box_title }}</h5>
+                <p>{{ block.settings.box_text }}</p>
+              </div>
+            </div>
+          {% endfor %}
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-    {% endcomment %}
+    </div>
   </div>
 </section>
 
@@ -67,3 +65,47 @@
     }, 300);
   });
 </script>
+
+{% schema %}
+{
+  "name": "How It Works",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "How it works"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step_section",
+      "name": "Step Section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "box_image",
+          "label": "Step Image"
+        },
+        {
+          "type": "text",
+          "id": "box_title",
+          "label": "Step 1",
+          "default": "Step 1"
+        },
+        {
+          "type": "text",
+          "id": "box_text",
+          "label": "Text",
+          "default": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "How It Works Section"
+    }
+  ]
+}
+{% endschema %}
