@@ -79,8 +79,8 @@
 } 
 
   .image-slider-wrapper {
-    min-width: 330px; 
-    min-height: 500px; 
+    max-width: 330px; 
+    max-height: 500px; 
 }
  .swiper-slide{
     display: block;
