@@ -95,9 +95,11 @@
     position: relative;
     bottom: 70px;
 }
-.content .number {
+
+.number {
     font-size: 102px;
     color: #7EC6BC;
+    margin-top: -150px;
 }
 .first {
     transform: rotate(355deg);
