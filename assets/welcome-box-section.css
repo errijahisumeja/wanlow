@@ -25,6 +25,23 @@
     opacity: 1;
 }
 
+.welcome-box-list{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-noto-sans-display);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-483729);
+    text-align: left;
+    font: normal normal normal 18px/28px Noto Sans Display;
+    letter-spacing: 0px;
+    color: #483729;
+    opacity: 1;
+}
+
+.welcome-box-list li{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;   
+}
+
 .img{
     width: 684px;
     height: 645px;
