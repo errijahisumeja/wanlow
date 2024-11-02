@@ -47,3 +47,21 @@
     width: 684px;
     height: 645px;
 }
+
+.btn {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 10%;
+    color: #fff !important;
+    background-color: #e66643;
+    max-width: 45rem;
+    border: none !important;
+    word-break: break-word;
+  }
+  
+  .btn:hover{
+    background-color: #b24020;
+    color: rgb(239, 232, 232) !important;
+    border: none !important;
+  }
