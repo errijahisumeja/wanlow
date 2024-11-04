@@ -4,7 +4,10 @@
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <h5 class="welcome-box-heading">{{ section.settings.heading }}</h5>
+        <h5 class="welcome-box-heading">
+          {{ section.settings.heading }}
+          <img src="{{ 'star.png' | asset_url }}" alt="icon" class="icon" width="10" height="10">
+        </h5>
         <p class="welcome-box-text">{{ section.settings.text }}</p>
         <ul class="welcome-box-list list-unstyled">
           <li>
