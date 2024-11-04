@@ -52,6 +52,9 @@
     width: 400px;
     height: 300px;
     padding: 20px;
+    margin-left: 45%;
+    margin-top: 3.5%;
+    position: absolute;
 }
 
 .gallery-text{
@@ -77,6 +80,8 @@
     word-break: break-word;
     font: normal normal normal 18px/28px Noto Sans Display;
     margin-top: 10px;
+    width: fit-content;
+    margin-left: 30%;
   }
   
   .subscribe-button:hover{
