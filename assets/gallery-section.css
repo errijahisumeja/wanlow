@@ -121,7 +121,7 @@
 
   @media (max-width: 768px){
     .gallery-content{
-        margin-left: 10%;
+        margin: auto;
     }
     .subscribe-button{
         margin-left: 80px;
