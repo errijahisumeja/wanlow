@@ -257,7 +257,7 @@
   }
 
   .banner:not(.banner--mobile-bottom) .button--secondary {
-    /* --alpha-button-background: 0; */
+    --alpha-button-background: 0;
   }
 
   .banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
@@ -387,7 +387,7 @@
   }
 
   .banner--desktop-transparent .button--secondary {
-    /* --alpha-button-background: 0; */
+    --alpha-button-background: 0;
   }
 
   .banner--desktop-transparent .content-container:after {
@@ -460,7 +460,7 @@
   margin-top: 1rem;
 }
 
-.banner__buttons {
+.banner__button {
   display: inline-flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -475,7 +475,7 @@
   font-weight: bold;
 }
 
-.banner__buttons:hover{
+.banner__button:hover{
   background-color: #428b81;
   color: rgb(239, 232, 232) !important;
   border: none !important;
