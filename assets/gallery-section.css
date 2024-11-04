@@ -9,3 +9,15 @@
     width: 786px;
     height: 459px;
 }
+
+.third-img{
+    background-image: url(third-img.png);
+    width: 380px;
+    height: 527px;
+}
+
+.fourth-img{
+    background-image: url(fourth-img.png);
+    width: 380px;
+    height: 294px;
+}
