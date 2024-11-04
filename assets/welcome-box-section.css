@@ -49,6 +49,10 @@
     height: 645px;
 }
 
+.icon{
+    width: 10px;
+    height: 10px;
+}
 .welcome-button {
     display: inline-flex;
     flex-wrap: wrap;
