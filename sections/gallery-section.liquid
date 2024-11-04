@@ -5,8 +5,8 @@
     <div class="row">
       <h5 class="gallery-heading">{{ section.settings.heading }}</h5>
       <p class="gallery-subheading">{{ section.settings.subheading }}</p>
-      <div class="col-12 col-md-8">
-        <div class="first-container first-img">
+      <div class="col-12 col-md-4">
+        <div class="first-container first-img img-fluid">
           <div class="gallery-content">
             <div class="gallery-icon">
               <img src="{{ section.settings.gallery-icon | image_url }}" class="gallery-icon" width="100" height="100">
@@ -15,7 +15,7 @@
             <a href="{{ section.settings.button_link }}" class="subscribe-button">{{ section.settings.button_text }}</a>
           </div>
         </div>
-        <div class="second-container second-img"></div>
+        <div class="second-container second-img img-fluid"></div>
       </div>
       <div class="col-12 col-md-4">
         <div class="third-container third-img"></div>
