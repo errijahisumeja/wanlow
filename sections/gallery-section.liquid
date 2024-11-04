@@ -3,8 +3,21 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-8"></div>
-      <div class="col-4"></div>
+      <h5 class="gallery-heading"></h5>
+      <p class="gallery-subheading"></p>
+      <div class="col-8">
+        <div class="first-container">
+          <div class="gallery-content text-section">
+            <p class="gallery-text"></p>
+            <a href="" class="subscribe"></a>
+          </div>
+        </div>
+        <div class="second-container"></div>
+      </div>
+      <div class="col-4">
+        <div class="third-container"></div>
+        <div class="fourth-container"></div>
+      </div>
     </div>
   </div>
 </section>
@@ -12,7 +25,58 @@
 {% schema %}
 {
   "name": "Gallery Section",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Title",
+      "default": "Outdoor Fun Continues Each Month"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Outdoor Fun Continues Each Month"
+    },
+    {
+      "type": "text",
+      "id": "gallery-text",
+      "label": "Text Section",
+      "default": "Text!"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "/"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Subscribe!"
+    },
+    {
+      "type": "image_picker",
+      "id": "first-img",
+      "label": "First image"
+    },
+    {
+      "type": "image_picker",
+      "id": "second-img",
+      "label": "Second image"
+    },
+    {
+      "type": "image_picker",
+      "id": "third-img",
+      "label": "Third image"
+    },
+    {
+      "type": "image_picker",
+      "id": "fourth-img",
+      "label": "Fourth image"
+    }
+  ],
   "presets": [
     {
       "name": "Gallery Section",
