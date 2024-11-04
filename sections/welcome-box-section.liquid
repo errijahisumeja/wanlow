@@ -7,7 +7,10 @@
         <h5 class="welcome-box-heading">{{ section.settings.heading }}</h5>
         <p class="welcome-box-text">{{ section.settings.text }}</p>
         <ul class="welcome-box-list list-unstyled">
-          <li>{{ section.settings.list_item_1 }}</li>
+          <li>
+            <img src="{{ 'star.png' | asset_url }}" alt="icon" class="icon" width="100" height="100">
+            {{- section.settings.list_item_1 }}
+          </li>
           <li>{{ section.settings.list_item_1 }}</li>
           <li>{{ section.settings.list_item_1 }}</li>
           <li>{{ section.settings.list_item_1 }}</li>
