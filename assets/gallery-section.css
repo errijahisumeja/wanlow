@@ -121,7 +121,7 @@
 
   @media (max-width: 768px){
     .gallery-content{
-        position: relative;
+        position: absolute;
         justify-self: center;
     }
     .subscribe-button{
