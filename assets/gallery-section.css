@@ -116,6 +116,8 @@
 
     .subscribe-button{
         margin-left: 30px;
+        margin: 0;
+        justify-self: center;
     }
   }
 
