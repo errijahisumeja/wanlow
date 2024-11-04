@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="{{ 'testimonial.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<div class="slideshow py-5">
+  <h2 class="text-center font-weight-bold mb-4">{{ section.settings.title }}</h2>
+  <div class="container">
+    <div class="row">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div
+                class="card p-5 text-center swiper-slide__item shadow-lg"
+                style="min-height: 300px; max-width: 90%; margin: 0 auto;"
+              >
+                <div class="swiper-slide__rating text-warning mb-3" style="font-size: 1.5rem;">★★★★★</div>
+                <div class="swiper-slide__text">
+                  <p style="font-size: 1.2rem;">{{ block.settings.slide_content }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          446: {
+            slidesPerView: 1,
+            initialSlide: 0,
+          },
+          768: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    }, 300);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Swiper Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Why Families Love The Robot Garage"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "slide_content",
+          "label": "Slide Content",
+          "default": "Slide content goes here"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
