@@ -1,3 +1,7 @@
+.container{
+    background-color: #7EC6BC;
+}
+
 .first-img{
     background-image: url(first-image.png);
     width: 480px;
