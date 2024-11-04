@@ -3,6 +3,9 @@
     padding: 40px;
 }
 
+.img-fluid{
+    height: 0 !important;
+}
 .first-img{
     background-image: url(first-image.png);
     width: 480px;
@@ -61,7 +64,7 @@
     padding: 40px;
     margin-left: 45%;
     margin-top: 3.5%;
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
 
 }
