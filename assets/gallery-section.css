@@ -134,6 +134,6 @@
         justify-self: center;
     }
     .first-img{
-        margin-top: -40%;
+        display: grid;
     }
   }
