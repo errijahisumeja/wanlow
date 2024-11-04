@@ -3,13 +3,13 @@
 <section>
   <div class="container">
     <div class="row">
-      <h5 class="gallery-heading"></h5>
-      <p class="gallery-subheading"></p>
+      <h5 class="gallery-heading">{{ section.settings.heading }}</h5>
+      <p class="gallery-subheading">{{ section.settings.subheading }}</p>
       <div class="col-8">
         <div class="first-container">
           <div class="gallery-content text-section">
-            <p class="gallery-text"></p>
-            <a href="" class="subscribe"></a>
+            <p class="gallery-text">{{ section.settings['gallery-text'] }}</p>
+            <a href="{{ section.settings.button_link }}" class="subscribe">{{ section.settings.button_text }}</a>
           </div>
         </div>
         <div class="second-container"></div>
