@@ -118,3 +118,9 @@
         margin-left: 30px;
     }
   }
+
+  @media (max-width: 768px){
+    .gallery-content{
+        margin-left: 10%;
+    }
+  }
