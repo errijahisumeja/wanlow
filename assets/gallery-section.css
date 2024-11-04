@@ -123,6 +123,7 @@
     .gallery-content{
         position: absolute;
         justify-self: center;
+        margin-top: -50%;
     }
     .subscribe-button{
         margin-left: 80px;
