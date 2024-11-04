@@ -462,21 +462,27 @@
 
 .banner__buttons {
   display: inline-flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  border-radius: 10%;
-  color: #483729 !important;
-  background-color: #7EC6BC;
-  max-width: 45rem;
-  border: none !important;
-  word-break: break-word;
-  font: normal normal normal 18px/28px Noto Sans Display;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 1rem;
+    border-radius: 5px;
+    color: #483729 !important;
+    background-color: #7EC6BC;
+    max-width: 45rem;
+    border: none !important;
+    word-break: break-word;
+    font: normal normal normal 18px/28px Noto Sans Display;
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: 30%;
+    font-weight: bold;
 }
 
 .banner__buttons:hover{
-  background-color: #309d8e;
+  background-color: #428b81;
   color: rgb(239, 232, 232) !important;
   border: none !important;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 749px) {
