@@ -124,6 +124,7 @@
         position: absolute;
         justify-self: center;
         width: 300px;
+        height: 400px;
     }
     .subscribe-button{
         margin-left: 80px;
