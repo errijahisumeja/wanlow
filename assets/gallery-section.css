@@ -29,6 +29,11 @@
     height: 294px;
 }
 
+.gallery-icon{
+    width: 128px;
+    height: 127px;
+    transform: matrix(0.77, 0.64, -0.64, 0.77, 0, 0);
+}
 .gallery-heading{
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-483729);
