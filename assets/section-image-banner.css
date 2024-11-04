@@ -470,6 +470,7 @@
   max-width: 45rem;
   border: none !important;
   word-break: break-word;
+  font: normal normal normal 18px/28px Noto Sans Display;
 }
 
 .banner__buttons:hover{
