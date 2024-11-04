@@ -8,8 +8,8 @@
       <div class="col-8">
         <div class="first-container first-img">
           <div class="gallery-content">
-            <div class="icon">
-              <img src="{{ section.settings.icon | image_url }}" class="icon" width="100" height="100">
+            <div class="gallery-icon">
+              <img src="{{ section.settings.icon | image_url }}" class="gallery-icon" width="100" height="100">
             </div>
             <p class="gallery-text">{{ section.settings['gallery-text'] }}</p>
             <a href="{{ section.settings.button_link }}" class="subscribe-button">{{ section.settings.button_text }}</a>
@@ -61,7 +61,7 @@
     },
     {
       "type": "image_picker",
-      "id": "icon",
+      "id": "gallery-icon",
       "label": "Icon"
     }
   ],
