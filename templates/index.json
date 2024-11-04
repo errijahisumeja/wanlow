@@ -119,12 +119,19 @@
         "button_text": "Subscribe Now",
         "gallery-icon": "shopify://shop_images/Path_518.png"
       }
+    },
+    "testimonial_KKqgKK": {
+      "type": "testimonial",
+      "settings": {
+        "heading": "What Are Our Adventurers Saying"
+      }
     }
   },
   "order": [
     "image_banner",
     "how_it_works_section_wRMqy7",
     "welcome_box_section_fMbrLx",
-    "gallery_section_RgThmG"
+    "gallery_section_RgThmG",
+    "testimonial_KKqgKK"
   ]
 }
