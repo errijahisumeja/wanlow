@@ -110,11 +110,5 @@
   }
 
   @media (max-width: 1024px){
-    .gallery-icon{
-        margin-top: -50px;
-    }
-
-    .subscribe-button{
-        margin-left: 30px;
-    }
+    
   }
