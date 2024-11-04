@@ -64,7 +64,7 @@
     flex-wrap: wrap;
     padding: 10px;
     gap: 1rem;
-    border-radius: 10%;
+    border-radius: 5px;
     color: #fff !important;
     background-color: #e66643;
     max-width: 45rem;
