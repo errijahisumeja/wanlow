@@ -108,11 +108,22 @@
         "button_text": "Get Your First Box!",
         "img": "shopify://shop_images/welcome-image.png"
       }
+    },
+    "gallery_section_RgThmG": {
+      "type": "gallery-section",
+      "settings": {
+        "heading": "Outdoor Fun Continues Each Month",
+        "subheading": "Each new box comes with products, activities, and a booklet with learning material and games",
+        "gallery-text": "You can expect lots of different themes all built around learning and spending time outdoors like Animals, Star Gazing, Gardening, Parks, Outdoor Crafts & Games, and many more!",
+        "button_link": "/",
+        "button_text": "Subscribe Now"
+      }
     }
   },
   "order": [
     "image_banner",
     "how_it_works_section_wRMqy7",
-    "welcome_box_section_fMbrLx"
+    "welcome_box_section_fMbrLx",
+    "gallery_section_RgThmG"
   ]
 }
