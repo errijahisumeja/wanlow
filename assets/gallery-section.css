@@ -32,7 +32,8 @@
 .gallery-icon{
     width: 128px;
     height: 127px;
-    transform: matrix(0.77, 0.64, -0.64, 0.77, 0, 0);
+    margin-top: -50px;
+    justify-self: center;
 }
 .gallery-heading{
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -77,6 +78,7 @@
     letter-spacing: 0px;
     color: #483729;
     opacity: 1;
+    margin-top: -60px;
 }
 
 .subscribe-button {
