@@ -1,65 +1,63 @@
-.gallery{
+/* Base styles (your original code) */
+.gallery {
     background-color: #D4ECE8;
     padding: 40px;
 }
 
-.first-img{
+.first-img {
     background-image: url(first-image.png);
     width: 480px;
     height: 357px;
 }
 
-.second-img{
+.second-img {
     background-image: url(second-img.png);
     width: 740px;
     height: 459px;
     margin: 20px 20px 20px 0;
 }
 
-.third-img{
+.third-img {
     background-image: url(third-img.png);
     width: 380px;
     height: 527px;
     margin: 20px 0 20px 0;
 }
 
-.fourth-img{
+.fourth-img {
     background-image: url(fourth-img.png);
     width: 380px;
     height: 294px;
 }
 
-.gallery-icon{
+.gallery-icon {
     width: 128px;
     height: 127px;
     margin-top: -50px;
     justify-self: center;
 }
-.gallery-heading{
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-483729);
-    text-align: center !important;
-    font: normal normal normal 50px/57px Mouse Memoirs;
+
+.gallery-heading {
     letter-spacing: 0px;
     color: #483729;
+    text-align: center !important;
+    font: normal normal normal 50px/57px Mouse Memoirs;
     text-transform: capitalize;
     opacity: 1;
     margin: 0 auto;
 }
 
-.gallery-subheading{
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-483729);
-    text-align: center;
-    font: normal normal normal 18px/28px Noto Sans Display;
+.gallery-subheading {
     letter-spacing: 0px;
     color: #483729;
+    text-align: center;
+    font: normal normal normal 18px/28px Noto Sans Display;
     opacity: 1;
     margin: 0 auto 50px;
 }
 
-.gallery-content{
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+.gallery-content {
+    background: #FFFFFF;
     box-shadow: 0px 20px 30px #00000029;
     opacity: 1;
     width: 400px;
@@ -70,13 +68,11 @@
     position: absolute;
 }
 
-.gallery-text{
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-483729);
-    text-align: center;
-    font: normal normal normal 18px/28px Noto Sans Display;
+.gallery-text {
     letter-spacing: 0px;
     color: #483729;
+    text-align: center;
+    font: normal normal normal 18px/28px Noto Sans Display;
     opacity: 1;
     margin-top: -60px;
 }
@@ -96,12 +92,94 @@
     margin-top: 10px;
     width: fit-content;
     margin-left: 30%;
-    font-weight: bold;
-  }
-  
-  .subscribe-button:hover{
+}
+
+.subscribe-button:hover {
     background-color: #428b81;
     color: rgb(239, 232, 232) !important;
     border: none !important;
     text-decoration: none;
-  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .gallery-content {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+        position: relative;
+        top: 5%;
+    }
+
+    .gallery-heading {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .gallery-subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .subscribe-button {
+        margin: 0 auto;
+        padding: 8px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .gallery-subheading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gallery-content {
+        width: 90%;
+        margin-top: 5%;
+        padding: 20px;
+    }
+
+    .subscribe-button {
+        font-size: 14px;
+        padding: 6px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .first-img, .second-img, .third-img, .fourth-img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .gallery-heading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .gallery-subheading {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .gallery-content {
+        padding: 15px;
+        width: 100%;
+        position: relative;
+        margin-top: 5%;
+    }
+
+    .subscribe-button {
+        font-size: 12px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+}
