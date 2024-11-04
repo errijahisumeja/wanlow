@@ -1,5 +1,6 @@
 .gallery{
     background-color: #D4ECE8;
+    padding: 40px;
 }
 
 .first-img{
@@ -48,8 +49,7 @@
     letter-spacing: 0px;
     color: #483729;
     opacity: 1;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin: 0 auto 50px;
 }
 
 .gallery-content{
