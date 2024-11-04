@@ -8,6 +8,7 @@
       <div class="col-8">
         <div class="first-container first-img">
           <div class="gallery-content">
+            <div class="icon">{{ section.settings.icon }}</div>
             <p class="gallery-text">{{ section.settings['gallery-text'] }}</p>
             <a href="{{ section.settings.button_link }}" class="subscribe-button">{{ section.settings.button_text }}</a>
           </div>
@@ -55,6 +56,12 @@
       "id": "button_text",
       "label": "Button Text",
       "default": "Subscribe!"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon",
+      "default": "icon"
     }
   ],
   "presets": [
