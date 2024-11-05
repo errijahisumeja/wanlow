@@ -46,7 +46,7 @@
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
-        breakpoints: {
+        {% comment %} breakpoints: {
           446: {
             slidesPerView: 1,
             initialSlide: 0,
@@ -57,7 +57,7 @@
           1024: {
             slidesPerView: 3,
           },
-        },
+        }, {% endcomment %}
       });
     }, 300);
   });
