@@ -42,7 +42,7 @@
 }
 
 .swiper-slide__rating{
-    color: #DB7623;
+    color: #DB7623 !important;
     font-size: 2.5rem;
 }
 
