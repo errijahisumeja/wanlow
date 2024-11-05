@@ -46,7 +46,7 @@
         <div class="footer-block grid__item footer-block--menu">
           {% assign menu = linklists[block.settings.menu] %}
           {% if menu %}
-            <p>Menu assigned: {{ block.settings.link_list }}</p>
+            <p>Menu assigned: {{ block.settings.menu }}</p>
             {% if menu.links.size > 0 %}
               <ul class="footer-block__details-content list-unstyled">
                 {% for link in menu.links %}
@@ -64,7 +64,7 @@
               <p>No links available in this menu.</p>
             {% endif %}
           {% else %}
-            <p>Menu not found: {{ block.settings.link_list }}</p>
+            <p>Menu not found: {{ block.settings.menu }}</p>
           {% endif %}
         </div>
       </div>
