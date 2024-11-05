@@ -72,9 +72,8 @@
   transform: translateX(20px); 
   color: #000 !important; 
   width: 40px !important; 
-  height: 40px !important;
-  background-color: rgba(0, 0, 0, 0.1) !important; 
-  border-radius: 50% !important;
+  height: 30px !important;
+  background-color: #fff !important; 
   justify-content: center !important;
   align-items: center !important;
   z-index: 10 !important; 
