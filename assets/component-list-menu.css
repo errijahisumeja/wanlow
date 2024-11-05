@@ -3,7 +3,7 @@
 }
 
 .footer-block__details-content{
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 .list-menu--disclosure {
   position: absolute;
