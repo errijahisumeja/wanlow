@@ -36,7 +36,7 @@
 } */
 
 .card{
-    background-color: #EAE8E7;
+    background-color: #EAE8E7 !important;
     margin: 0 auto;
     width: 100%;
 }
