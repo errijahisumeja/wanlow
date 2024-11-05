@@ -3,9 +3,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 <div class="testimonial">
+  <h5 class="testimonial-heading">{{ section.settings.heading }}</h5>
   <div class="container">
     <div class="row">
-      <h5 class="testimonial-heading">{{ section.settings.heading }}</h5>
       <div class="testimonial-swiper swiper">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
