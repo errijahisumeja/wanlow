@@ -17,18 +17,18 @@
 
 .swiper-slide-active .swiper-slide__item {
     transform: scale(1.1);
-    background-color: #fff; 
+    background-color: none; 
     font-size: 26px !important; 
 }
   
 .swiper-slide__item {
-    background-color: #FDFFEA; 
+    background-color: none; 
     transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease; 
     font-size: 20px; 
 }
   
 .swiper-slide:not(.swiper-slide-active) .swiper-slide__item {
-    background-color: #FDFFEA; 
+    background-color: none; 
     font-size: 20px;
 }
 
