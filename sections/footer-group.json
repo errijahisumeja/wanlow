@@ -28,6 +28,8 @@
       "settings": {
         "color_scheme": "scheme-1",
         "footer_logo": "shopify://shop_images/footer-logo.png",
+        "button_link": "/",
+        "button_text": "Sign In!",
         "newsletter_enable": true,
         "newsletter_heading": "Sign Up To Receive Exclusive Offers, Content And More!",
         "enable_follow_on_shop": true,
