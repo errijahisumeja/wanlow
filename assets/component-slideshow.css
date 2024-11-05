@@ -36,7 +36,7 @@
 .gallery-item {
   flex-shrink: 0;
   width: 100%; 
-  max-width: 400px; 
+  max-width: 200px; 
   height: auto; 
 }
 
