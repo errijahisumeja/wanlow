@@ -145,6 +145,12 @@
       "settings": {
         "heading": "What Are Our Adventurers Saying"
       }
+    },
+    "slideshow_J6cgkq": {
+      "type": "slideshow",
+      "settings": {
+        "heading": "Join Our Community"
+      }
     }
   },
   "order": [
@@ -152,6 +158,7 @@
     "how_it_works_section_wRMqy7",
     "welcome_box_section_fMbrLx",
     "gallery_section_RgThmG",
-    "testimonial_KKqgKK"
+    "testimonial_KKqgKK",
+    "slideshow_J6cgkq"
   ]
 }
