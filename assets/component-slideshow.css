@@ -3,7 +3,7 @@
   padding: 20px 0;
 }
 
-.slideshow__heading {
+.slideshow-heading{
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-483729);
   text-align: center;
