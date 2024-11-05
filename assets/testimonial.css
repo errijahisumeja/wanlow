@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+.swiper-slide{
+    background-color: none;
+}
+
 .swiper-slide__rating{
     color: #DB7623;
 }
