@@ -30,13 +30,13 @@
     font-size: 20px; 
 }
   
-.swiper-slide:not(.swiper-slide-active) .swiper-slide__item {
+/* .swiper-slide:not(.swiper-slide-active) .swiper-slide__item {
     background-color: none; 
     font-size: 20px;
-}
+} */
 
 .card{
-    background-color: none;
+    background-color: #EAE8E7;
     margin: 0 auto;
     width: 100%;
 }
