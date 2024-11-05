@@ -112,7 +112,7 @@
 
 .footer-block:only-child:last-child {
   text-align: center;
-  max-width: 76rem;
+  min-width: 20rem;
   margin: 0 auto;
 }
 
