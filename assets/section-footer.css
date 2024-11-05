@@ -122,9 +122,9 @@
   }
 }
 
-.footer-block:empty {
+/* .footer-block:empty {
   display: none;
-}
+} */
 
 .footer-block--newsletter {
   display: flex;
