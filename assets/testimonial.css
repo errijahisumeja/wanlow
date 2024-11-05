@@ -39,6 +39,7 @@
     background-color: #EAE8E7 !important;
     margin: 0 auto;
     width: 100%;
+    border: none !important;
 }
 
 .swiper-slide__rating{
