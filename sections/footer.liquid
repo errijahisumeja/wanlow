@@ -111,6 +111,7 @@
                   {{- 'icon-arrow.svg' | inline_asset_content -}}
                 </span>
               </button>
+              <a href="{{ section.settings.button_link }}" class="footer-button">{{ section.settings.button_text }}</a>
 
               {%- if form.errors -%}
                 <small class="newsletter-form__message form__message" id="ContactFooter-error">
@@ -261,6 +262,18 @@
       "id": "footer_logo",
       "label": "Footer Logo",
       "info": "Upload a custom logo to display in the footer."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "/"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Click Me!"
     },
     {
       "type": "header",
