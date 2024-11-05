@@ -5,27 +5,27 @@
 
 .first-img{
     background-image: url(first-image.png);
-    width: 480px;
+    max-width: 480px;
     height: 357px;
 }
 
 .second-img{
     background-image: url(second-img.png);
-    width: 740px;
+    max-width: 740px;
     height: 459px;
     margin: 20px 20px 20px 0;
 }
 
 .third-img{
     background-image: url(third-img.png);
-    width: 380px;
+    max-width: 380px;
     height: 527px;
     margin: 20px 0 20px 0;
 }
 
 .fourth-img{
     background-image: url(fourth-img.png);
-    width: 380px;
+    max-width: 380px;
     height: 294px;
 }
 
@@ -61,7 +61,7 @@
     padding: 40px;
     margin-left: 45%;
     margin-top: 3.5%;
-    /* position: absolute; */
+    position: absolute;
     z-index: 1;
 
 }
