@@ -148,6 +148,58 @@
     },
     "slideshow_J6cgkq": {
       "type": "slideshow",
+      "blocks": {
+        "image_hUBeaF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-banner-2.png",
+            "alt_text": "Gallery Image"
+          }
+        },
+        "image_9yA3Ft": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-banner-1.png",
+            "alt_text": "Gallery Image"
+          }
+        },
+        "image_aJkXP8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-banner-2.png",
+            "alt_text": "Gallery Image"
+          }
+        },
+        "image_4njmrw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-banner-1.png",
+            "alt_text": "Gallery Image"
+          }
+        },
+        "image_DWkNRr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-banner-2.png",
+            "alt_text": "Gallery Image"
+          }
+        },
+        "image_dkUMKe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-banner-1.png",
+            "alt_text": "Gallery Image"
+          }
+        }
+      },
+      "block_order": [
+        "image_hUBeaF",
+        "image_9yA3Ft",
+        "image_aJkXP8",
+        "image_4njmrw",
+        "image_DWkNRr",
+        "image_dkUMKe"
+      ],
       "settings": {
         "heading": "Join Our Community"
       }
