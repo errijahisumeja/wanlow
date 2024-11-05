@@ -36,7 +36,6 @@
     setTimeout(function () {
       var swiper = new Swiper('.testimonial-swiper', {
         slidesPerView: 1,
-        spaceBetween: 30,
         initialSlide: 1,
         pagination: {
           el: '.swiper-pagination',
@@ -46,7 +45,7 @@
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
-        breakpoints: {
+        {% comment %} breakpoints: {
           446: {
             slidesPerView: 1,
             initialSlide: 0,
@@ -57,7 +56,7 @@
           1024: {
             slidesPerView: 3,
           },
-        },
+        }, {% endcomment %}
       });
     }, 300);
   });
