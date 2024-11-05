@@ -14,16 +14,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
+        "link_list_jUBAHd": {
           "type": "link_list",
           "settings": {
-            "heading": "heading",
+            "heading": "Quick links",
             "menu": "footer-menu"
           }
         }
       },
       "block_order": [
-        "footer-0"
+        "link_list_jUBAHd"
       ],
       "settings": {
         "color_scheme": "scheme-1",
