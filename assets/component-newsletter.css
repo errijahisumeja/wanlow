@@ -15,12 +15,19 @@
   }
 }
 
+.footer__newsletter .field__input{
+
+}
+
 .newsletter-form__field-wrapper {
   width: 100%;
 }
 
 .newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
+  border: 2px solid red;
+  background-color: transparent;
+  color: #000;
 }
 
 .newsletter-form__field-wrapper .field {
