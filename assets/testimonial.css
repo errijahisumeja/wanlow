@@ -9,3 +9,7 @@
     opacity: 1;
     margin: 0 auto;
 }
+
+.swiper-slide__rating{
+    color: #DB7623;
+}
