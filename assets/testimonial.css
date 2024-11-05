@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+.swiper-slide {
+    transition: transform 0.3s ease;
+    box-shadow: none !important;
+  }
+
 .card{
     background-color: none;
     min-height: 300px; 
