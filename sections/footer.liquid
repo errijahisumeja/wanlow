@@ -44,7 +44,7 @@
       </div>
       <div class="col-sm">
         <div class="footer-block grid__item footer-block--menu">
-          <div>{{ block.settings.menu | json }}</div>
+          <div>{{ settings.menu | json }}</div>
 
           {% assign menu = linklists[block.settings.menu] %}
           {% if menu %}
