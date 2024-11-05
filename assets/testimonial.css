@@ -8,6 +8,7 @@
     text-transform: capitalize;
     opacity: 1;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 .swiper-slide {
