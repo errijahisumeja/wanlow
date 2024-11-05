@@ -276,7 +276,7 @@
   color: rgba(var(--color-foreground), 0.75);
 }
 
-.welcome-button {
+.footer-button {
   display: inline-flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -291,7 +291,7 @@
   margin-top: 10px;
 }
 
-.welcome-button:hover{
+.footer-button:hover{
   background-color: #55a89a;
   color: rgb(239, 232, 232) !important;
   border: none !important;
