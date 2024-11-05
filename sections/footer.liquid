@@ -107,11 +107,8 @@
                 id="Subscribe"
                 aria-label="{{ 'newsletter.button_label' | t }}"
               >
-                <span class="svg-wrapper">
-                  {{- 'icon-arrow.svg' | inline_asset_content -}}
-                </span>
+                {{ section.settings.button_text }}
               </button>
-              <a href="{{ section.settings.button_link }}" class="footer-button">{{ section.settings.button_text }}</a>
 
               {%- if form.errors -%}
                 <small class="newsletter-form__message form__message" id="ContactFooter-error">
