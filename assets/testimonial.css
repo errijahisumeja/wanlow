@@ -38,6 +38,7 @@
     margin: 0 auto;
     width: 100%;
     border: none !important;
+    padding: 40px;
 }
 
 .swiper-slide__rating{
