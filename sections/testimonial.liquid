@@ -17,6 +17,7 @@
                 <div class="swiper-slide__rating text-warning mb-3" style="color: #DB7623 !important;">★★★★★</div>
                 <div class="swiper-slide__text">
                   <p class="testimonial-text">{{ block.settings.slide_content }}</p>
+                  <h5 class="testimonial-author">{{ block.settings.author }}</h5>
                 </div>
               </div>
             </div>
@@ -85,6 +86,12 @@
           "id": "slide_content",
           "label": "Slide Content",
           "default": "Slide content goes here"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "author",
+          "default": "Author!"
         }
       ]
     }
