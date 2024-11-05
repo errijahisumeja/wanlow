@@ -49,6 +49,7 @@
             <p>Menu assigned: {{ block.settings.menu }}</p>
             {% if menu.links.size > 0 %}
               <ul class="footer-block__details-content list-unstyled">
+                {{ menu | json }}
                 {% for link in menu.links %}
                   <li>
                     <a
