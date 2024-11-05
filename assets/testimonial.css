@@ -1,3 +1,7 @@
+.testimonial{
+    margin-top: 10%
+}
+
 .testimonial-heading{
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-483729);
