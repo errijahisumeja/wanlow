@@ -21,6 +21,7 @@
 
 .newsletter-form__field-wrapper {
   width: 100%;
+  border-radius: 5px;
 }
 
 .newsletter-form__field-wrapper .field__input {
@@ -28,7 +29,7 @@
   border: 2px solid #000;
   background-color: transparent;
   color: gray;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .newsletter-form__field-wrapper .field {
