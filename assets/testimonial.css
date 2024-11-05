@@ -13,7 +13,6 @@
 .swiper-slide {
     transition: transform 0.3s ease;
     box-shadow: none !important;
-    width: 80%;
     background-color: #EAE8E7;
   }
 
