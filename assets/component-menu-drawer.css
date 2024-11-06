@@ -125,7 +125,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   display: none;
 }
 
-.menu-drawer__menu-item > .svg-wrapper {
+.menu-drawer__menu-item > .svg-wrapper, .svg-wrapper-header, .svg-wrapper-header-get-started {
   width: 15px;
   position: absolute;
   right: 3rem;
