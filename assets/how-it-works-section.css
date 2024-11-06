@@ -89,6 +89,6 @@
         bottom: -100px;
     }
     .steps__box-title{
-        font-size: 18px;
+        font-size: 18px !important;
     }
 }
