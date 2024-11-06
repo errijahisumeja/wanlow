@@ -70,7 +70,9 @@
       <div class="col-sm">
         <div class="footer-block__newsletter">
           {%- if section.settings.newsletter_heading != blank -%}
-            <h5 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h5>
+            <h5 class="footer-block__heading inline-richtext" style="font-size: 30px">
+              {{ section.settings.newsletter_heading }}
+            </h5>
           {%- endif -%}
           {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
             <input type="hidden" name="contact[tags]" value="newsletter">
