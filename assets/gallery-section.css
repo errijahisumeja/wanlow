@@ -159,6 +159,7 @@
     .first-img{
         display: grid;
         margin-top: 110%;
+        width: 80%;
     }
     .second-img{
         width: 80%;
