@@ -33,6 +33,9 @@
 .newsletter-form__field-wrapper {
   width: 226px;
   height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .newsletter-form__field-wrapper .field__input {
@@ -81,4 +84,10 @@
 
 .newsletter-form__button .icon {
   width: 1.5rem;
+}
+
+@media (max-width: 1024) {
+  .newsletter-form__field-wrapper{
+
+  }
 }
