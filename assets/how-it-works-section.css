@@ -22,33 +22,6 @@
     opacity: 1;
     margin-bottom: 5%
   }
-/*   
-.how-it-works__content {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    align-items: center;  
-    gap: 20px;  
-}
-   */
-/* .steps__box {
-    background-color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 30%; 
-    margin: 0 auto;
-    height: 100%;
-    width: 500px;
-  } */
-    
-/* .steps__image {
-    width: 330px; 
-    height: 500px; 
-    overflow: hidden;
-} */
 
 .steps__box-title {
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -109,4 +82,10 @@
 }
 .third {
     transform: rotate(355deg);
+}
+
+@media (max-width: 1200){
+    .content{
+        bottom: -100px;
+    }
 }
