@@ -644,6 +644,13 @@ h3 .icon-arrow,
   border-radius: 50%;
 }
 
+.svg-wrapper-header{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
 .svg-wrapper > svg {
   height: 100%;
   width: 100%;
