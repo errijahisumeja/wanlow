@@ -92,3 +92,9 @@
         font-size: 18px !important;
     }
 }
+
+@media (max-width: 768px){
+    .content{
+        bottom: -160px;
+    }
+}
