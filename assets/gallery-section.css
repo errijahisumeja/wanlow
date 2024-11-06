@@ -154,10 +154,14 @@
         height: 300px;
         margin-left: 0;
         display: grid;
-        margin-top: -430px;
+        margin-top: -310px;
     }
     .first-img{
         display: grid;
         margin-top: 110%;
+    }
+    .second-img{
+        max-width: 480px;
+        height: 357px;
     }
   }
