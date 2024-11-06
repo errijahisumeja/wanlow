@@ -95,6 +95,7 @@
 
 @media (max-width: 768px){
     .content{
-        bottom: -160px;
+        bottom: -200px;
+        width: 80%;
     }
 }
