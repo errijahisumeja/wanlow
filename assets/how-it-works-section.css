@@ -6,7 +6,7 @@
     transition: transform 0.3s ease;
 }
 
-.image-slider-wrapper{
+.image-slider-wrapper img{
     width: 330px; 
     height: 500px; 
 }
