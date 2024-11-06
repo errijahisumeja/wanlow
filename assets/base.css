@@ -653,11 +653,8 @@ h3 .icon-arrow,
 }
 
 .svg-wrapper-header-get-started{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   width: 120px;
-  height: 120px;
+  margin-right: 100px;
 }
 
 .svg-wrapper > svg {
@@ -2439,6 +2436,10 @@ input[type='checkbox'] {
 
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
     margin-top: 1.05rem;
+  }
+  .svg-wrapper-header-icon,
+  .svg-wrapper-header-icon-get-started{
+    display: none;
   }
 }
 
