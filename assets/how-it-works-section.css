@@ -92,14 +92,14 @@
  .content {
     padding: 0 30px;
     position: relative;
-    bottom: -160px;
-    width: 70%;
+    bottom: -120px;
+    width: 80%;
 }
 
 .number {
     font-size: 102px;
     color: #7EC6BC;
-    margin-top: -260px;
+    margin-top: -270px;
 }
 .first {
     transform: rotate(355deg);
