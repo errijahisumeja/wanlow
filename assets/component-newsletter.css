@@ -8,12 +8,11 @@
 }
 
 .newsletter-form__button {
-  background-color: #f14949;
-  color: #fff;
+  color: #473D44;
   font-weight: bold;
   padding: 5px;
   font-size: 22px;
-  border-radius: 20px;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
   width: 30%;
   border: none;
@@ -32,7 +31,7 @@
 }
 
 .newsletter-form__field-wrapper {
-  width: 246px;
+  width: 226px;
   height: 50px;
 }
 
