@@ -63,7 +63,7 @@
  }
 
  .swiper-pagination{
-    display: none;
+    visibility: hidden;
  }
 
  .content {
@@ -95,6 +95,9 @@
     .steps__box-title{
         font-size: 18px !important;
     }
+    .swiper-pagination{
+       visibility: visible;
+     }
 }
 
 @media (max-width: 768px){
@@ -102,6 +105,9 @@
         bottom: -140px;
         width: 45%;
     }
+    .swiper-pagination{
+        visibility: visible;
+     }
 }
 
 @media (max-width: 400px){
@@ -109,4 +115,7 @@
         bottom: -100px;
         width: 60%;
     }
+    .swiper-pagination{
+        visibility: visible;
+     }
 }
