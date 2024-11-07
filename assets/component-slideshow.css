@@ -60,8 +60,8 @@
   font: normal normal normal 18px/28px Noto Sans Display;
   margin-top: 10px;
   width: fit-content;
-  margin-left: 30%;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .follow-us-button:hover{
