@@ -158,6 +158,7 @@
           {%- endfor -%}
         </ul>
       {%- endif -%}
+      <img src="{{ section.settings.footer-img | image_url }}" class="footer-img" width="100" height="100">
     </div>
   </div>
 </div>
@@ -293,6 +294,11 @@
       "id": "button_text",
       "label": "Button Text",
       "default": "Click Me!"
+    },
+    {
+      "type": "image_picker",
+      "id": "footer-img",
+      "label": "Footer Image"
     },
     {
       "type": "header",
