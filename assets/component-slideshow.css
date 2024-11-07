@@ -71,12 +71,12 @@
   text-decoration: none;
 }
 
-.btn i {
+.follow-us-button i {
   margin-right: 8px;
   vertical-align: middle; 
 }
 
-.btn i.fab.fa-instagram {
+.follow-us-button i.fab.fa-instagram {
   font-size: 1.2em;
   color: inherit; 
 }
