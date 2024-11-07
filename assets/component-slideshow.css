@@ -61,7 +61,7 @@
   margin-top: 10px;
   width: fit-content;
   font-weight: bold;
-  margin: 0 auto;
+  margin-left: 47%;
 }
 
 .follow-us-button:hover{
@@ -72,8 +72,6 @@
 }
 
 .follow-us-button i {
-  margin-right: 8px;
-  vertical-align: middle; 
   font-size: xx-large;
 }
 
