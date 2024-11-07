@@ -62,6 +62,10 @@
     object-fit: cover;
  }
 
+ .swiper-pagination{
+    display: none;
+ }
+
  .content {
     padding: 0px;
     position: relative;
