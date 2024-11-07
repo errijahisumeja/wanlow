@@ -26,16 +26,16 @@
   }
 }
 
-.newsletter-form__field-wrapper {
+/* .newsletter-form__field-wrapper {
   width: 226px;
-  /* height: 50px; */
+  /* height: 50px; 
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: flex-start;
-}
+} */
 
-.newsletter-form__field-wrapper .field__input {
+ .field__input {
   padding-right: 5rem;
   border: 2px solid #000;
   background-color: transparent;
@@ -43,7 +43,7 @@
   border-radius: 5px;
 }
 
-.newsletter-form__field-wrapper .field {
+.field {
   z-index: 0;
 }
 
