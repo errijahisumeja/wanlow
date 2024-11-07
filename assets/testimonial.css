@@ -100,8 +100,7 @@
   opacity: 1 !important;   
   font-size: 10px !important;
   padding: 4px; */
-  display: none;
-  visibility: hidden;
+
 }
 
 .swiper-button-next::after,
