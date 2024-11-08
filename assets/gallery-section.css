@@ -135,6 +135,9 @@
         margin: 0;
         justify-self: center;
     }
+    .second-img{
+        aspect-ratio: 2;
+    }
     /* .first-img{
         max-width: 340px;
         height: 278px;
@@ -168,7 +171,7 @@
         justify-self: center;
     }
     .second-img{
-        aspect-ratio: 2;
+        aspect-ratio: 0.83;
     }
     /* .first-img{
         display: grid;
