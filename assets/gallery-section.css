@@ -116,10 +116,12 @@
         margin-top: -50px;
     }
     .gallery-content{
-        position: absolute;
         justify-self: center;
+        width: 300px;
+        height: 400px;
         margin-left: 0;
         display: grid;
+        margin-top: -430px;
     }
 
     .subscribe-button{
