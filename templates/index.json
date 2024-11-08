@@ -72,7 +72,7 @@
         "step_section_FN6YRG": {
           "type": "step_section",
           "settings": {
-            "box_image": "shopify://shop_images/step-2.png",
+            "box_image": "shopify://shop_images/fourth-img.png",
             "box_title": "Delivered To Your Door",
             "box_text": "Check your mailbox monthly"
           }
@@ -80,7 +80,7 @@
         "step_section_D6DLci": {
           "type": "step_section",
           "settings": {
-            "box_image": "shopify://shop_images/step-3.png",
+            "box_image": "shopify://shop_images/fourth-img.png",
             "box_title": "Get Outside And Have Some Fun!",
             "box_text": "In the backyard or the backcountry, Wanlow is designed to inspire kids to spend more time outdoors"
           }
