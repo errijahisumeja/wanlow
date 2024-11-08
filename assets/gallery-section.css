@@ -21,12 +21,14 @@
     max-width: 380px;
     height: 527px;
     margin: 20px 0 20px 0;
+    border-radius: 5px;
 }
 
 .fourth-img{
     background-image: url(fourth-img.png);
     max-width: 380px;
     height: 294px;
+    border-radius: 5px;
 }
 
 .gallery-heading{
@@ -124,6 +126,22 @@
         margin-left: 30px;
         margin: 0;
         justify-self: center;
+    }
+    .first-img{
+        max-width: 240px;
+        height: 178px;
+    }
+    .second-img{
+        max-width: 370px;
+        height: 229px;
+    }
+    .third-img{
+        max-width: 190px;
+        height: 263px;
+    }
+    .fourth-img{
+        max-width: 190px;
+        height: 147px;
     }
   }
 
