@@ -2525,6 +2525,10 @@ input[type='checkbox'] {
     justify-self: center;
     text-align: center;
   }
+ 
+}
+
+@media (max-width: 990px){
   .svg-wrapper-header,
   .svg-wrapper-header-get-started{
     visibility: hidden;
