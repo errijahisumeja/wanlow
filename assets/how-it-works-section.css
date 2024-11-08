@@ -63,7 +63,7 @@
  }
 
  .swiper-pagination{
-    visibility: visible;
+    visibility: hidden;
  }
 
  .content {
@@ -88,7 +88,7 @@
     transform: rotate(355deg);
 }
 
-@media (max-width: 1200){
+@media (max-width: 1024){
     .content{
         bottom: -100px;
     }
