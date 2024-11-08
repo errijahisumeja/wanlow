@@ -162,6 +162,9 @@
     .second-img{
         aspect-ratio: 0.83;
     }
+    .gallery-subheading{
+        margin-bottom: 400px;
+    }
   }
 
   @media (max-width: 480px){
