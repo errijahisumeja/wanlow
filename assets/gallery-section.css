@@ -167,6 +167,9 @@
         font-size: 14px;
         justify-self: center;
     }
+    .second-img{
+        aspect-ratio: 2;
+    }
     /* .first-img{
         display: grid;
         margin-top: 110%;
@@ -193,7 +196,7 @@
         margin-top: -310px;
     }
     .second-img{
-        aspect-ratio: 2;
+        aspect-ratio: 0.83;
     }
     /* .first-img{
         display: grid;
