@@ -2437,10 +2437,7 @@ input[type='checkbox'] {
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
     margin-top: 1.05rem;
   }
-  .svg-wrapper-header,
-  .svg-wrapper-header-get-started{
-    display: none;
-  }
+  
 }
 
 .header *[tabindex='-1']:focus {
@@ -2527,6 +2524,10 @@ input[type='checkbox'] {
   .header--top-center .header__heading {
     justify-self: center;
     text-align: center;
+  }
+  .svg-wrapper-header,
+  .svg-wrapper-header-get-started{
+    visibility: hidden;
   }
 }
 
