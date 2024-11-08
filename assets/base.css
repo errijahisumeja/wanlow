@@ -2527,7 +2527,7 @@ input[type='checkbox'] {
   }
   .svg-wrapper-header,
   .svg-wrapper-header-get-started{
-    visibility: visible;
+    visibility: hidden;
   }
 }
 
