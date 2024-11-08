@@ -62,7 +62,7 @@
 .welcome-button {
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 10px 30px;
     gap: 1rem;
     border-radius: 5px;
     color: #fff !important;
@@ -70,8 +70,10 @@
     max-width: 45rem;
     border: none !important;
     word-break: break-word;
-    font: normal normal normal 18px/28px Mouse Memoirs;
+    font: 18px/28px Mouse Memoirs;
     margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
   }
   
   .welcome-button:hover{
