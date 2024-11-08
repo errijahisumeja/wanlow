@@ -5,10 +5,10 @@
 
 .first-img{
     background-image: url(first-image.png);
-    max-width: 480px;
     height: 357px;
     border-radius: 5px;
     aspect-ratio: 16/15;
+    display: grid;
 }
 
 .second-img{
@@ -167,13 +167,18 @@
   @media (max-width: 480px){
     .gallery-content{
         justify-self: center;
-        width: 200px;
-        height: 300px;
+        height: fit-content;
         margin-left: 0;
         display: grid;
-        margin-top: -310px;
+        margin-top: -400px;
+    }
+    .first-img{
+        display: grid;
     }
     .second-img{
         aspect-ratio: 0.83;
+    }
+    .gallery-subheading{
+        margin-bottom: 420px;
     }
   }
