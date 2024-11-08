@@ -63,7 +63,7 @@
  }
 
  .swiper-pagination{
-    visibility: hidden;
+    visibility: visible;
  }
 
  .content {
