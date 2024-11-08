@@ -14,18 +14,20 @@
               style="min-height: 600px; margin-right: -30px"
             >
               <div class="image-slider-wrapper">
-                <img
-                  src="{{ block.settings.box_image  | image_url }}"
-                  width="360"
-                  height="500"
-                >
-              </div>
-              <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
-                {{ forloop.index }}
-              </div>
-              <div class="content">
-                <h5 class="steps__box-title">{{ block.settings.box_title }}</h5>
-                <p class="steps__box-text">{{ block.settings.box_text }}</p>
+                <div class="content-box">
+                  <img
+                    src="{{ block.settings.box_image  | image_url }}"
+                    width="360"
+                    height="500"
+                  >
+                  <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
+                    {{ forloop.index }}
+                  </div>
+                  <div class="content">
+                    <h5 class="steps__box-title">{{ block.settings.box_title }}</h5>
+                    <p class="steps__box-text">{{ block.settings.box_text }}</p>
+                  </div>
+                </div>
               </div>
             </div>
           {% endfor %}
