@@ -7,10 +7,16 @@
 }
 
 .image-slider-wrapper img{
-    width: 330px; 
-    height: 500px; 
+    width: 100px; 
+    height: 100px; 
 }
 
+.content-box{
+    width: 330px; 
+    height: 500px; 
+    background-color: white;
+    box-shadow: #7EC6BC;
+}
 .how-it-works__title {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-483729);
