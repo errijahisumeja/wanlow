@@ -121,7 +121,6 @@
 
 @media (max-width: 768px){
     .content{
-        bottom: -140px;
         width: 45%;
     }
     .swiper-pagination{
@@ -131,7 +130,6 @@
 
 @media (max-width: 400px){
     .content{
-        bottom: -100px;
         width: 60%;
     }
     .swiper-pagination{
