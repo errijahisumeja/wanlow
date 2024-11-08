@@ -9,6 +9,9 @@
 .image-slider-wrapper img{
     width: 100px; 
     height: 100px; 
+    justify-self: center;
+    margin-top: 30px;
+    border-radius: 30px;
 }
 
 .content-box{
@@ -16,6 +19,8 @@
     height: 500px; 
     background-color: white;
     box-shadow: #7EC6BC;
+    display: grid;
+    justify-content: center;
 }
 .how-it-works__title {
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -75,14 +80,16 @@
  .content {
     padding: 0px;
     position: relative;
-    bottom: -120px;
+    bottom: -50px;
     width: 70%;
+    justify-self: center;
 }
 
 .number {
     font-size: 102px;
     color: #7EC6BC;
-    margin-top: -270px;
+    margin-top: -150px;
+    justify-self: center;
 }
 .first {
     transform: rotate(355deg);
