@@ -27,6 +27,11 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} .banner__media-half {
+      display: none;
+    }
+  }
 {%- endstyle -%}
 
 {%- liquid
