@@ -64,7 +64,7 @@
         "step_section_cx7MCX": {
           "type": "step_section",
           "settings": {
-            "box_image": "shopify://shop_images/step-1_c14485e6-ae7f-443d-ae0a-5e4576ab1f44.png",
+            "box_image": "shopify://shop_images/fourth-img.png",
             "box_title": "Order Your First Box",
             "box_text": "You’ll start with the Welcome Box, followed by 12 amazing boxes to discover"
           }
@@ -209,7 +209,9 @@
         "image_dkUMKe"
       ],
       "settings": {
-        "heading": "Join Our Community"
+        "heading": "Join Our Community",
+        "button_url": "/",
+        "button_text": "Follow Us"
       }
     }
   },
