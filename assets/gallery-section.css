@@ -148,6 +148,9 @@
   }
 
   @media (max-width: 768px){
+    .gallery{
+        justify-content: center;
+    }
     .gallery-content{
         justify-self: center;
         width: 300px;
