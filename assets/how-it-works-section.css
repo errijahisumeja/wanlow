@@ -101,6 +101,11 @@
     transform: rotate(355deg);
 }
 
+.tape{
+    margin-top: -550px;
+    display: flex;
+}
+
 @media (max-width: 1024){
     .content{
         bottom: -100px;
