@@ -66,7 +66,8 @@
           "settings": {
             "box_image": "shopify://shop_images/fourth-img.png",
             "box_title": "Order Your First Box",
-            "box_text": "You’ll start with the Welcome Box, followed by 12 amazing boxes to discover"
+            "box_text": "You’ll start with the Welcome Box, followed by 12 amazing boxes to discover",
+            "box-tape": "shopify://shop_images/Path_518.png"
           }
         },
         "step_section_FN6YRG": {
@@ -74,7 +75,8 @@
           "settings": {
             "box_image": "shopify://shop_images/fourth-img.png",
             "box_title": "Delivered To Your Door",
-            "box_text": "Check your mailbox monthly"
+            "box_text": "Check your mailbox monthly",
+            "box-tape": "shopify://shop_images/Path_518.png"
           }
         },
         "step_section_D6DLci": {
@@ -82,7 +84,8 @@
           "settings": {
             "box_image": "shopify://shop_images/fourth-img.png",
             "box_title": "Get Outside And Have Some Fun!",
-            "box_text": "In the backyard or the backcountry, Wanlow is designed to inspire kids to spend more time outdoors"
+            "box_text": "In the backyard or the backcountry, Wanlow is designed to inspire kids to spend more time outdoors",
+            "box-tape": "shopify://shop_images/Path_518.png"
           }
         }
       },
