@@ -73,7 +73,8 @@
 }
 
 .follow-us-button i {
-  font-size: xx-large;
+  font-size: large;
+  margin-top: 5px;
 }
 
 .follow-us-button i.fab.fa-instagram {
