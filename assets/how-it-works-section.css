@@ -64,7 +64,7 @@
     max-height: 500px; 
     object-fit: cover;
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 30px;
 }
  .swiper-slide{
     display: block;
@@ -113,6 +113,18 @@
 
 .image1_first_box{
     transform: rotate(-35deg);
+    margin-left: -30px;
+    margin-top: 70px;
+}
+
+.image2_first_box{
+    transform: rotate(35deg);
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.image1_second_box{
+    margin-top: 70px;
 }
 
 @media (max-width: 1024){
