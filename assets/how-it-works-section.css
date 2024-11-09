@@ -15,6 +15,10 @@
     border-radius: 30px;
 }
 
+.swiper{
+    padding: 40px;
+}
+
 .content-box{
     width: 330px; 
     height: 500px; 
