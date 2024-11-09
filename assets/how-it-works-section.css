@@ -107,24 +107,33 @@
 }
 
 .tape img{
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 100px;
+    max-height: 90px;
 }
 
 .image1_first_box{
     transform: rotate(-35deg);
-    margin-left: -30px;
+    margin-left: 0px;
     margin-top: 70px;
 }
 
 .image2_first_box{
-    transform: rotate(35deg);
-    margin-left: 30px;
+    transform: rotate(205deg);
+    margin-left: 200px;
     margin-top: 70px;
 }
 
 .image1_second_box{
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.image1_third_box{
+    margin-top: 60px;
+}
+
+.image2_third_box{
+    margin-top: 60px;
 }
 
 @media (max-width: 1024){
