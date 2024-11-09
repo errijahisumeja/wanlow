@@ -4,7 +4,6 @@
 
 .swiper-slide{
     transition: transform 0.3s ease;
-    margin-right: 0px !important;
 }
 
 .image-slider-wrapper .box-image{
@@ -13,10 +12,6 @@
     justify-self: center;
     margin-top: 30px;
     border-radius: 30px;
-}
-
-.swiper{
-    padding: 40px;
 }
 
 .content-box{
