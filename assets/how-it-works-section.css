@@ -102,8 +102,13 @@
 }
 
 .tape{
-    margin-top: -550px;
+    margin-top: -510px;
     display: flex;
+}
+
+.tape img{
+    max-width: 200px;
+    max-width: 150px;
 }
 
 @media (max-width: 1024){
