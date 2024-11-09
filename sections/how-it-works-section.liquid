@@ -22,7 +22,7 @@
                   <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
                     {{ forloop.index }}
                   </div>
-                  <div class="tape {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
+                  <div class="tape {% if forloop.index == 1 %}first-tape{% elsif forloop.index == 2 %}second-tape{% elsif forloop.index == 3 %}third-tape{% endif %}">
                     {%- if forloop.index == 1 -%}
                       <img
                         class="image1_first_box"
