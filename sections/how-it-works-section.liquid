@@ -22,6 +22,42 @@
                   <div class="number {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
                     {{ forloop.index }}
                   </div>
+                  <div class="tape {% if forloop.index == 1 %}first{% elsif forloop.index == 2 %}second{% elsif forloop.index == 3 %}third{% endif %}">
+                    {%- if forloop.index == 1 -%}
+                      <img
+                        class="image1_first_box"
+                        src="{{ block.settings.box-tape | image_url }}"
+                        width="100"
+                        height="100"
+                      >
+                      <img
+                        class="image2_first_box"
+                        src="{{ block.settings.box-tape | image_url }}"
+                        width="100"
+                        height="100"
+                      >
+                    {%- elsif forloop.index == 2 -%}
+                      <img
+                        class="image1_second_box"
+                        src="{{ block.settings.box-tape | image_url }}"
+                        width="100"
+                        height="100"
+                      >
+                    {%- elsif forloop.index == 3 -%}
+                      <img
+                        class="image1_third_box"
+                        src="{{ block.settings.box-tape | image_url }}"
+                        width="100"
+                        height="100"
+                      >
+                      <img
+                        class="image2_third_box"
+                        src="{{ block.settings.box-tape | image_url }}"
+                        width="100"
+                        height="100"
+                      >
+                    {%- endif -%}
+                  </div>
                   <div class="content">
                     <h5 class="steps__box-title">{{ block.settings.box_title }}</h5>
                     <p class="steps__box-text">{{ block.settings.box_text }}</p>
@@ -104,6 +140,11 @@
           "id": "box_text",
           "label": "Text",
           "default": "Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "box-tape",
+          "label": "Tape image"
         }
       ]
     }

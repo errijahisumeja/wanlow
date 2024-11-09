@@ -86,9 +86,9 @@
 }
 
 .number {
-    font-size: 102px;
+    font: 102px Mouse Memoirs;
     color: #7EC6BC;
-    margin-top: -150px;
+    margin-top: -130px;
     justify-self: center;
 }
 .first {
