@@ -133,7 +133,9 @@
 }
 
 .image2_third_box{
-    margin-top: 60px;
+    margin-top: 90px;
+    margin-left: 180px;
+    transform: rotate(200deg);
 }
 
 @media (max-width: 1024){
