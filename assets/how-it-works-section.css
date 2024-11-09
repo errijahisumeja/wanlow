@@ -6,7 +6,7 @@
     transition: transform 0.3s ease;
 }
 
-.image-slider-wrapper img{
+.image-slider-wrapper .box-image{
     width: 280px; 
     height: 280px; 
     justify-self: center;
@@ -112,7 +112,7 @@
 }
 
 .image1_first_box{
-    transform: rotate(355deg);
+    transform: rotate(-35deg);
 }
 
 @media (max-width: 1024){
