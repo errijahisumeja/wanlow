@@ -4,6 +4,7 @@
 
 .swiper-slide{
     transition: transform 0.3s ease;
+    margin-right: 0px !important;
 }
 
 .image-slider-wrapper .box-image{
@@ -129,7 +130,8 @@
 }
 
 .image1_third_box{
-    margin-top: 60px;
+    margin-top: 70px;
+    transform: rotate(-35deg);
 }
 
 .image2_third_box{
