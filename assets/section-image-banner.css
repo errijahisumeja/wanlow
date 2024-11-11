@@ -219,3 +219,23 @@
     font-size: 36px;
   }
 }
+
+.hidden-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hidden-mobile {
+    display: block;
+  }
+
+  .banner__media, .second-image {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner__media {
+    width: 100%;
+  }
+}
