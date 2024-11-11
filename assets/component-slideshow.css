@@ -1,9 +1,9 @@
-.gallery-section {
+.custom-slideshow {
   width: 100%;
   padding: 20px 0;
 }
 
-.slideshow-heading{
+.custom-slideshow-heading{
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-483729);
   text-align: center;
@@ -47,7 +47,7 @@
   border-radius: 10px;
 }
 
-.follow-us-button {
+.custom-follow-us-button {
   display: inline-flex;
   flex-wrap: wrap;
   padding: 10px 30px;
@@ -65,19 +65,19 @@
   margin-left: 47%;
 }
 
-.follow-us-button:hover{
+.custom-follow-us-button:hover{
   background-color: #428b81;
   color: rgb(239, 232, 232) !important;
   border: none !important;
   text-decoration: none;
 }
 
-.follow-us-button i {
+.custom-follow-us-button i {
   font-size: large;
   margin-top: 5px;
 }
 
-.follow-us-button i.fab.fa-instagram {
+.custom-follow-us-button i.fab.fa-instagram {
   font-size: 1.2em;
   color: inherit; 
 }
