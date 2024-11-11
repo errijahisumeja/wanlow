@@ -236,7 +236,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) {
   .banner--mobile-bottom .banner__media,
   .banner--stacked:not(.banner--mobile-bottom) .banner__media {
     position: relative;
@@ -282,7 +282,7 @@
   .banner--stacked .banner__media-image-half {
     width: 100%;
   }
-}
+} */
 
 .banner__content {
   padding: 0;
