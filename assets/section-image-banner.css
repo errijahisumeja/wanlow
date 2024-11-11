@@ -236,7 +236,7 @@
   height: auto;
 }
 
-/* @media screen and (max-width: 749px) {
+@media screen and (max-width: 749px) {
   .banner--mobile-bottom .banner__media,
   .banner--stacked:not(.banner--mobile-bottom) .banner__media {
     position: relative;
@@ -265,7 +265,7 @@
     height: auto;
   }
 
-  .banner--stacked.banner--adapt:not(.banner--mobile-bottom) .banner__content {
+  /* .banner--stacked.banner--adapt:not(.banner--mobile-bottom) .banner__content {
     max-height: 100%;
     overflow: hidden;
     position: absolute;
@@ -281,8 +281,8 @@
 
   .banner--stacked .banner__media-image-half {
     width: 100%;
-  }
-} */
+  } */
+}
 
 .banner__content {
   padding: 0;
