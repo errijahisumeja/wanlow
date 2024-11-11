@@ -1,7 +1,6 @@
 .custom-slideshow {
   width: 100%;
   padding: 20px 0;
-  overflow: hidden;
 }
 
 .custom-slideshow-heading{
@@ -27,6 +26,9 @@
   height: 250px;
 }
 
+.swiper-wrapper{
+  overflow: hidden;
+}
 .swiper-slide{
   transition: transform 0.3s ease;
 }
@@ -44,9 +46,17 @@
   z-index: 10 !important; 
   opacity: 1 !important;   
   font-size: 10px !important;
-  margin-top: -40px !important;
+  margin-top: -20px !important;
   border-radius: 5px;
 } 
+
+.custom-swiper-button-next{
+  margin-left: 70px;
+}
+
+.custom-swiper-button-prev{
+  margin-left: -70px;
+}
 
 .gallery-text-button-container {
   display: flex;
