@@ -53,32 +53,32 @@
           {%- endif -%}
           {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
             <input type="hidden" name="contact[tags]" value="newsletter">
-            <div class="newsletter-form__field-wrapper" style="border: none;">
-              <div class="field">
-                <label for="email">Enter your email:</label>
-                <input type="email" id="email" name="email">
-              </div>
-              <button
-                type="submit"
-                class="newsletter-form__button field__button"
-                name="commit"
-                id="Subscribe"
-                aria-label="{{ 'newsletter.button_label' | t }}"
-                style="background-color: #7EC6BC;"
-              >
-                {{ section.settings.button_text }}
-              </button>
 
-              {%- if form.errors -%}
-                <small class="newsletter-form__message form__message" id="ContactFooter-error">
-                  <span class="svg-wrapper">
-                    {{- 'icon-error.svg' | inline_asset_content -}}
-                  </span>
-                  {{- form.errors.translated_fields.email | capitalize }}
-                  {{ form.errors.messages.email -}}
-                </small>
-              {%- endif -%}
+            <div class="field">
+              <label for="email">Enter your email:</label>
+              <input type="email" id="email" name="email">
             </div>
+            <button
+              type="submit"
+              class="newsletter-form__button field__button"
+              name="commit"
+              id="Subscribe"
+              aria-label="{{ 'newsletter.button_label' | t }}"
+              style="background-color: #7EC6BC;"
+            >
+              {{ section.settings.button_text }}
+            </button>
+
+            {%- if form.errors -%}
+              <small class="newsletter-form__message form__message" id="ContactFooter-error">
+                <span class="svg-wrapper">
+                  {{- 'icon-error.svg' | inline_asset_content -}}
+                </span>
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </small>
+            {%- endif -%}
+
             {%- if form.posted_successfully? -%}
               <h3
                 class="newsletter-form__message newsletter-form__message--success form__message"
