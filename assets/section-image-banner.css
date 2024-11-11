@@ -250,7 +250,7 @@
     background: transparent;
   }
 
-  .banner:not(.banner--mobile-bottom) .banner__box {
+  /* .banner:not(.banner--mobile-bottom) .banner__box {
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -263,7 +263,7 @@
   .banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
     position: absolute;
     height: auto;
-  }
+  } */
 
   /* .banner--stacked.banner--adapt:not(.banner--mobile-bottom) .banner__content {
     max-height: 100%;
