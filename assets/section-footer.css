@@ -314,6 +314,11 @@ opacity: 1;
 }
 
 @media (max-width: 480px){
+  
+  .footer-block.footer-block--menu{
+    display: flex;
+    justify-content: flex-start;
+  }
   .footer-block.footer-block--menu:only-child{
     text-align: left;
   }
