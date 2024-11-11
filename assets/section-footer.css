@@ -38,6 +38,10 @@ opacity: 1;
   opacity: 1;
 }
 
+.email-filed{
+  border-color: #483729;
+}
+
 .email-input{
   height: 50px;
   width: 150px;
