@@ -133,7 +133,7 @@
 
 @media (max-width: 480px){
   .gallery-image{
-    max-width: 50%;
+    max-width: 50% !important; 
     justify-self: center;
     display: flex;
   }
