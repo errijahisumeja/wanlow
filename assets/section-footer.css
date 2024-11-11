@@ -299,7 +299,7 @@ opacity: 1;
   .footer__follow-on-shop,
   .footer-block__newsletter {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .footer-block__newsletter {
@@ -310,6 +310,12 @@ opacity: 1;
 @media screen and (min-width: 750px) {
   .footer-block__newsletter + .footer__list-social {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 480px){
+  .footer-block.footer-block--menu:only-child{
+    text-align: left;
   }
 }
 
