@@ -332,11 +332,11 @@ opacity: 1;
   border-radius: 5px;
   color: #fff !important;
   background-color:#D4ECE8;
-  max-width: 45rem;
+  max-width: 55rem;
   border: none !important;
   word-break: break-word;
   font: normal normal normal 18px/28px Noto Sans Display;
-  margin-top: 10px;
+  margin-top: 75x;
 }
 
 .footer-button:hover{
