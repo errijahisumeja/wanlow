@@ -129,6 +129,7 @@
       <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {%- when 'heading' -%}
               <h2
                 class="banner__heading inline-richtext {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
@@ -139,17 +140,18 @@
               <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 <p>{{ block.settings.text }}</p>
               </div>
-
+            {%- when 'buttons' -%}
               <div
                 class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
                 {{ block.shopify_attributes }}
               >
-                <a
-                  class="banner__button"
-                >
-                  {{- block.settings.button_label_1 | escape -}}
-                </a>
-
+                {%- if block.settings.button_label_1 != blank -%}
+                  <a
+                    class="banner__button"
+                  >
+                    {{- block.settings.button_label_1 | escape -}}
+                  </a>
+                {%- endif -%}
                 {% comment %}
                   {%- if block.settings.button_label_2 != blank -%}
                     <a
