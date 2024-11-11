@@ -41,6 +41,10 @@ opacity: 1;
 .email-input{
   height: 50px;
   width: 150px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: #483729;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 749px) {
