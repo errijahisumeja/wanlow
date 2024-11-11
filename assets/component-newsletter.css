@@ -16,7 +16,7 @@
   transition: background-color 0.3s ease;
   width: 30%;
   border: none;
-  height: 45rem;
+  height: 5rem;
 }
 
 @media screen and (min-width: 750px) {
