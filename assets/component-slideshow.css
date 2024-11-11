@@ -137,6 +137,12 @@
   }
 }
 
+@media (max-width: 1024px){
+  .gallery-image{
+    max-width: 100%;
+  }
+}
+
 /* @media (max-width: 1024){
   .gallery-item{
     max-width: 300px;
