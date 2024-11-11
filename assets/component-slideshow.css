@@ -45,16 +45,21 @@
   z-index: 10 !important; 
   opacity: 1 !important;   
   font-size: 10px !important;
-  margin-top: -20px !important;
+  margin-top: 183% !important;
   border-radius: 5px;
 } 
 
 .custom-swiper-button-next{
-  margin-left: 70px;
+  margin-right: 14%;
 }
 
 .custom-swiper-button-prev{
-  margin-left: -70px;
+  margin-left: 12%;
+}
+
+.custom-swiper-button-next i, 
+.custom-swiper-button-prev i {
+  font-size: 24px; 
 }
 
 .gallery-text-button-container {
