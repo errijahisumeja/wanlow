@@ -38,6 +38,9 @@ opacity: 1;
   opacity: 1;
 }
 
+.email-wrapper{
+  display: flex;
+}
 .email-filed{
   border-color: #483729;
 }
