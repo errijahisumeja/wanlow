@@ -823,6 +823,7 @@ summary::-webkit-details-marker {
     max-height: 30px;
   }
 }
+
 @media screen and (min-width: 750px) {
   .title-wrapper--self-padded-mobile {
     padding-left: 0;
