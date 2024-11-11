@@ -26,7 +26,7 @@
   height: 250px;
 }
 
-.swiper-wrapper{
+.custom-swiper-wrapper{
   overflow: hidden;
 }
 .swiper-slide{
