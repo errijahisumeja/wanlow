@@ -400,7 +400,7 @@ opacity: 1;
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: #483729;
 }
 
 .footer-block__details-content .list-menu__item--active {
