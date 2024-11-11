@@ -372,6 +372,10 @@
 }
 
 @media screen and (min-width: 750px) {
+  .banner__media_2--hide-on-mobile {
+    display: none;
+  }
+  
   .banner__box {
     padding: 4rem 3.5rem;
   }
@@ -524,4 +528,5 @@
   .banner__heading{
     font-size: 36px;
   }
+  .
 }
