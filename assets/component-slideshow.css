@@ -134,6 +134,11 @@
 @media (max-width: 480px){
   .gallery-image{
     max-width: 50%;
+    justify-self: center;
+    display: flex;
+  }
+  .custom-swiper-button-prev{
+    margin-left: 5px;
   }
 }
 
