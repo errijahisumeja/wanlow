@@ -20,6 +20,13 @@
   margin-left: 10px;
 }
 
+.sign-in-button:hover{
+  background-color: #55a89a;
+  color: rgb(239, 232, 232) !important;
+  border: none !important;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 750px) {
   .newsletter-form {
     align-items: flex-start;
