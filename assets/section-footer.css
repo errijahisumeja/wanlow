@@ -16,8 +16,7 @@
   padding-bottom: 5rem;
   display: block;
 }
-
-.footer-block__details-content {
+.list-menu__item--link  {
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-483729);
   text-align: left;
