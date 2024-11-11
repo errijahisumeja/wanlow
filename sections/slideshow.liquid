@@ -35,6 +35,8 @@
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
       var swiper = new Swiper('.custom-swiper', {
+        wrapperClass: 'custom-swiper-wrapper',
+        slideClass: 'swiper-slide',
         slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
