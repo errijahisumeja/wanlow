@@ -149,6 +149,11 @@
   .custom-follow-us-button{
     justify-self: center;
   }
+  .custom-swiper-button-next,
+  .custom-swiper-button-prev{
+    width: 28px;
+    height: 28px;
+  }
 }
 
 @media (max-width: 1024px){
