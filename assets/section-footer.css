@@ -54,6 +54,13 @@ opacity: 1;
   font-size: 18px;
 }
 
+@media (max-width: 480px){
+  .footer-logo{
+    width: 150px;
+    height: 150px;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
