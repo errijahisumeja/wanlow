@@ -1,7 +1,11 @@
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
   background-color: #D4ECE8;
-  padding: 80px;
+  padding: 20px 0 0 0;
+}
+
+.bg-footer{
+  background-image: url(/Users/sumejaerrijahi/Downloads/wanlow/assets/footer-img.svg);
 }
 
 .footer:not(.color-scheme-1) {
