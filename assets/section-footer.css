@@ -7,7 +7,7 @@
 .bg-footer{
   background-image: url('footer-img.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto
 }
 
 .footer:not(.color-scheme-1) {
