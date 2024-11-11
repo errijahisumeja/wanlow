@@ -50,7 +50,7 @@
 } 
 
 .custom-swiper-button-next{
-  margin-right: 14%;
+  margin-right: 14% !important;
 }
 
 .custom-swiper-button-prev{
