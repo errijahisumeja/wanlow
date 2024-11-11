@@ -372,7 +372,7 @@
 }
 
 @media screen and (min-width: 750px) {
-  .banner__media_2--hide-on-mobile {
+  .banner__media-2--desktop-only {
     display: none;
   }
 

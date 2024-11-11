@@ -95,16 +95,14 @@
       </div>
     {%- endif -%}
     {%- if section.settings.image_2 != blank -%}
-      <div class="banner__media_2 media banner__media_2--hide-on-mobile{% if section.settings.image != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <div class="banner__media_2 media banner__media-2--desktop-only{% if section.settings.image != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
         {{
           section.settings.image_2
           | image_url: width: 3840
           | image_tag:
             width: section.settings.image_2.width,
-            height: image_height_2,
-            class: image_class_2,
-            sizes: sizes,
-            widths: widths,
+            height: section.settings.image_2.height,
+            class: 'banner__media-image-half',
             fetchpriority: fetch_priority
         }}
       </div>
