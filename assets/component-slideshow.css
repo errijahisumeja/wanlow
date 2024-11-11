@@ -133,7 +133,7 @@
 
 @media (max-width: 480px){
   .gallery-item{
-    max-width: 100px;
+    max-width: 50px;
   }
 }
 
