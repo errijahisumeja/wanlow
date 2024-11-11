@@ -160,6 +160,8 @@
 @media (max-width: 768px) {
   .gallery-image {
     max-width: 50%; 
+    display: flex;
+    justify-self: center;
   }
 }
 /* @media (max-width: 1024){
