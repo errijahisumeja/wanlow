@@ -75,6 +75,7 @@
 
  .swiper-pagination{
     visibility: hidden;
+    margin-top: 10%;
  }
 
  .content {
