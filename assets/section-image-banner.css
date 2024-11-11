@@ -375,6 +375,10 @@
   .second-image {
     display: none;
   }
+  .banner__media-half+.banner__media-half {
+    display: none;
+  }
+
 
   .banner__box {
     padding: 4rem 3.5rem;
