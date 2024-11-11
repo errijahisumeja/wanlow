@@ -38,6 +38,11 @@ opacity: 1;
   opacity: 1;
 }
 
+.email-input{
+  height: 20px;
+  width: 50px;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;

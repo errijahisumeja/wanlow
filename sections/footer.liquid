@@ -53,7 +53,7 @@
           {%- endif -%}
 
           <div class="email-filed">
-            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <input class="email-input" type="email" id="email" name="email" placeholder="Enter your email">
           </div>
           <button
             type="submit"
@@ -65,30 +65,6 @@
           >
             {{ section.settings.button_text }}
           </button>
-
-          {%- if form.errors -%}
-            <small class="newsletter-form__message form__message" id="ContactFooter-error">
-              <span class="svg-wrapper">
-                {{- 'icon-error.svg' | inline_asset_content -}}
-              </span>
-              {{- form.errors.translated_fields.email | capitalize }}
-              {{ form.errors.messages.email -}}
-            </small>
-          {%- endif -%}
-
-          {%- if form.posted_successfully? -%}
-            <h3
-              class="newsletter-form__message newsletter-form__message--success form__message"
-              id="ContactFooter-success"
-              tabindex="-1"
-              autofocus
-            >
-              <span class="svg-wrapper">
-                {{- 'icon-success.svg' | inline_asset_content -}}
-              </span>
-              {{- 'newsletter.success' | t }}
-            </h3>
-          {%- endif -%}
         </div>
       </div>
     </div>
