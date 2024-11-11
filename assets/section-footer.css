@@ -6,6 +6,8 @@
 
 .bg-footer{
   background-image: url('footer-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer:not(.color-scheme-1) {
