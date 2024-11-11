@@ -27,7 +27,6 @@
 }
 
 .swiper-wrapper{
-  overflow: hidden;
 }
 .swiper-slide{
   transition: transform 0.3s ease;
