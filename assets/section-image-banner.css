@@ -382,9 +382,9 @@
   .banner__media-half+.banner__media-half {
     display: none;
   }
-  .banner__media-2--desktop-only {
+  /* .banner__media-2--desktop-only {
     display: none;
-  }
+  } */
 
 
   .banner__box {
