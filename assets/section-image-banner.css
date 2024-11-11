@@ -372,10 +372,13 @@
 }
 
 @media screen and (min-width: 750px) {
-  .banner__media .media .second-image{
+  .second-image {
     display: none;
   }
   .banner__media-half+.banner__media-half {
+    display: none;
+  }
+  .banner__media-2--desktop-only {
     display: none;
   }
 
