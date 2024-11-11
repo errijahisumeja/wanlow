@@ -142,6 +142,9 @@
   .custom-swiper-button-prev{
     margin-left: 5px;
   }
+  .custom-follow-us-button{
+    justify-self: center;
+  }
 }
 
 @media (max-width: 1024px){
