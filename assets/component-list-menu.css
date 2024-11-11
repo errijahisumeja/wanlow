@@ -27,13 +27,13 @@ opacity: 1;
 }
 .list-menu__item--active {
   text-decoration: none;
-  /* letter-spacing: var(--unnamed-character-spacing-0);
+  letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-483729);
   text-align: left;
   font: normal normal normal 16px/22px Noto Sans Display;
   letter-spacing: 0px;
   color: #483729;
-  opacity: 1; */
+  opacity: 1;
 }
 
 .list-menu__item--active:hover {
