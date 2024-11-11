@@ -5,7 +5,7 @@
   <div class="container">
     <h5 class="custom-slideshow-heading">{{ section.settings.heading }}</h5>
     <div class="swiper-container custom-swiper col-sm" style="overflow: hidden;">
-      <div class="custom-swiper-wrapper">
+      <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide custom-slide">
             <img
@@ -35,8 +35,6 @@
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
       var swiper = new Swiper('.custom-swiper', {
-        wrapperClass: 'custom-swiper-wrapper',
-        slideClass: 'swiper-slide',
         slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
