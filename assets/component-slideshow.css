@@ -50,13 +50,13 @@
   border-radius: 5px;
 } 
 
-.custom-swiper-button-next{
+/* .custom-swiper-button-next{
   margin-right: 14% !important;
 }
 
 .custom-swiper-button-prev{
   margin-left: 12%;
-}
+} */
 
 .custom-swiper-button-next i, 
 .custom-swiper-button-prev i {
@@ -131,6 +131,11 @@
   color: inherit; 
 }
 
+@media (max-width: 480px){
+  .gallery-item{
+    max-width: 100px;
+  }
+}
 
 /* @media (max-width: 1024){
   .gallery-item{
