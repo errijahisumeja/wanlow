@@ -324,7 +324,7 @@ opacity: 1;
   color: rgba(var(--color-foreground), 0.75);
 }
 
-.footer-button {
+.sign-in-button {
   display: inline-flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -336,10 +336,10 @@ opacity: 1;
   border: none !important;
   word-break: break-word;
   font: normal normal normal 18px/28px Noto Sans Display;
-  margin-top: 75x;
+  margin-top: 75px;
 }
 
-.footer-button:hover{
+.sign-in-button:hover{
   background-color: #55a89a;
   color: rgb(239, 232, 232) !important;
   border: none !important;
