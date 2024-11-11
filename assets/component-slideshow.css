@@ -36,7 +36,7 @@
 .custom-swiper-button-next, 
 .custom-swiper-button-prev {
   position: absolute;
-  top: 60%; 
+  top: 60% !important; 
   transform: translateY(-50%); 
   color: #000 !important;
   width: 48px !important;
