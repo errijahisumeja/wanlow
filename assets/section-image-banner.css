@@ -492,7 +492,7 @@
   }
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .banner--content-align-center .banner__buttons--multiple > * {
     flex-grow: 1;
     min-width: 22rem;
@@ -501,9 +501,9 @@
   .banner--content-align-right .banner__buttons--multiple {
     justify-content: flex-end;
   }
-}
+} */
 
-.banner__box > * + .banner__buttons {
+/* .banner__box > * + .banner__buttons {
   margin-top: 2rem;
 }
 
@@ -521,7 +521,7 @@
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
   }
-}
+} */
 
 @media (max-width: 768px){
   .banner__heading{
