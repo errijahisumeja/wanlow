@@ -98,6 +98,11 @@
   border-radius: 10px;
 }
 
+.slideshow-button{
+  display: flex;
+  justify-content: center;
+}
+
 .custom-follow-us-button {
   display: inline-flex;
   flex-wrap: wrap;
