@@ -819,7 +819,7 @@ summary::-webkit-details-marker {
 
 @media (max-width: 480px){
   .svg-wrapper{
-    max-width: 30%;
+    max-width: 30px;
     max-height: 30px;
   }
 }
