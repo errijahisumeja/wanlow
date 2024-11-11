@@ -17,6 +17,16 @@
   display: block;
 }
 
+.footer-block__details-content {
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-483729);
+  text-align: left;
+  font: normal normal normal 16px/22px Noto Sans Display;
+  letter-spacing: 0px;
+  color: #483729;
+  opacity: 1;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
