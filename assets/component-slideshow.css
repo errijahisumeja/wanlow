@@ -26,8 +26,11 @@
   width: 250px;
   height: 250px;
 }
-
-.swiper-wrapper{
+.overlay{
+  background-color: #28252547; 
+  width: 100%; 
+  display: grid; 
+  position: relative;"
 }
 .swiper-slide{
   transition: transform 0.3s ease;
