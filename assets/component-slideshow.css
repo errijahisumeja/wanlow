@@ -144,7 +144,7 @@
 
 @media (max-width: 480px){
   .gallery-image{
-    max-width: 50% !important; 
+    max-width: 100%; 
     justify-self: center;
     display: flex;
   }
@@ -169,7 +169,7 @@
 
 @media (max-width: 768px) {
   .gallery-image {
-    max-width: 50%; 
+    max-width: 100%; 
     display: flex;
     justify-self: center;
   }
