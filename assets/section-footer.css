@@ -162,6 +162,7 @@ opacity: 1;
   text-align: center;
   min-width: 20rem;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 750px) {
@@ -233,6 +234,7 @@ opacity: 1;
 .footer-block__newsletter {
   text-align: center;
   flex-grow: 1;
+  margin-top: 30px;
 }
 
 .newsletter-form__field-wrapper {
