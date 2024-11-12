@@ -158,7 +158,9 @@
   .custom-swiper-button-prev{
     width: 28px;
     height: 28px;
+    margin-top: 20px;
   }
+
 }
 
 @media (max-width: 1024px){
