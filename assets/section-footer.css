@@ -52,6 +52,7 @@ opacity: 1;
   background-color: transparent;
   border-color: #483729;
   font-size: 18px;
+  padding: 10px;
 }
 
 @media (max-width: 480px){
@@ -171,10 +172,6 @@ opacity: 1;
     margin-top: 0;
   }
 }
-
-/* .footer-block:empty {
-  display: none;
-} */
 
 .footer-block--newsletter {
   display: flex;
