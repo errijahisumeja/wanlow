@@ -196,6 +196,9 @@
 }
 
 @media (max-width: 768px){
+    .how-it-works__title{
+        font: 36px;
+    }
     .content{
         width: 45%;
     }
