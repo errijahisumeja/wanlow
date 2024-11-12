@@ -36,7 +36,7 @@
 .custom-swiper-button-next, 
 .custom-swiper-button-prev {
   position: absolute;
-  top: 60% !important; 
+  top: 50% !important; 
   transform: translateY(-50%); 
   color: #000 !important;
   width: 48px !important;
@@ -117,7 +117,7 @@
   border: none !important;
   word-break: break-word;
   font: 18px/28px Mouse Memoirs;
-  margin-top: 10px;
+  margin-top: 60px;
   width: fit-content;
   font-weight: 500;
 }
