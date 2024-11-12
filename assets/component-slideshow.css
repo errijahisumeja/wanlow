@@ -160,6 +160,12 @@
     height: 28px;
     margin-top: 0px !important;
   }
+  .custom-swiper-button-next{
+    margin-left: 10px;
+  }
+  .custom-swiper-button-prev{
+    margin-right: 10px;
+  }
 
 }
 
